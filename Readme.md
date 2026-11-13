@@ -192,7 +192,7 @@ Before opening the project, ensure that you have the following installed:
 1. Clone the repository or download it as a ZIP file.
 
    ```bash
-   git clone https://github.com/username/SPEAK-KAPAMPANGAN.git
+   git clone https://github.com/CookieSenpai18/Speak--Kapampangan-Game.git
    ```
 
 2. Open Unity Hub.
