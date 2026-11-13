@@ -1,0 +1,534 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "gá",
+      "answer": "gá/gu"
+    },
+    {
+      "id": 2,
+      "name": "gi",
+      "answer": "gi"
+    },
+    {
+      "id": 3,
+      "name": "gí",
+      "answer": "gí"
+    },
+    {
+      "id": 4,
+      "name": "gu",
+      "answer": "gu"
+    },
+    {
+      "id": 5,
+      "name": "gú",
+      "answer": "gú"
+    },
+    {
+      "id": 6,
+      "name": "ge",
+      "answer": "ge"
+    },
+    {
+      "id": 7,
+      "name": "go",
+      "answer": "go"
+    },
+    {
+      "id": 8,
+      "name": "gang",
+      "answer": "gang"
+    },
+    {
+      "id": 9,
+      "name": "ká",
+      "answer": "ká"
+    },
+    {
+      "id": 10,
+      "name": "ki",
+      "answer": "ki"
+    },
+    {
+      "id": 11,
+      "name": "kí",
+      "answer": "kí"
+    },
+    {
+      "id": 12,
+      "name": "ku",
+      "answer": "ku"
+    },
+    {
+      "id": 13,
+      "name": "kú",
+      "answer": "kú"
+    },
+    {
+      "id": 14,
+      "name": "ke",
+      "answer": "ke"
+    },
+    {
+      "id": 15,
+      "name": "ko",
+      "answer": "ko"
+    },
+    {
+      "id": 16,
+      "name": "kang",
+      "answer": "kang"
+    },
+    {
+      "id": 17,
+      "name": "ngá",
+      "answer": "ngá"
+    },
+    {
+      "id": 18,
+      "name": "ngi",
+      "answer": "ngi"
+    },
+    {
+      "id": 19,
+      "name": "ngí",
+      "answer": "ngí"
+    },
+    {
+      "id": 20,
+      "name": "ngu",
+      "answer": "ngu"
+    },
+    {
+      "id": 21,
+      "name": "ngú",
+      "answer": "ngú"
+    },
+    {
+      "id": 22,
+      "name": "nge",
+      "answer": "nge"
+    },
+    {
+      "id": 23,
+      "name": "ngo",
+      "answer": "ngo"
+    },
+    {
+      "id": 24,
+      "name": "ngang",
+      "answer": "ngang"
+    },
+    {
+      "id": 25,
+      "name": "tá",
+      "answer": "tá"
+    },
+    {
+      "id": 26,
+      "name": "ti",
+      "answer": "ti"
+    },
+    {
+      "id": 27,
+      "name": "tí",
+      "answer": "tí"
+    },
+    {
+      "id": 28,
+      "name": "tu",
+      "answer": "tu"
+    },
+    {
+      "id": 29,
+      "name": "tú",
+      "answer": "tú"
+    },
+    {
+      "id": 30,
+      "name": "te",
+      "answer": "te"
+    },
+    {
+      "id": 31,
+      "name": "to",
+      "answer": "to"
+    },
+    {
+      "id": 32,
+      "name": "tang",
+      "answer": "tang"
+    },
+    {
+      "id": 33,
+      "name": "dá",
+      "answer": "dá"
+    },
+    {
+      "id": 34,
+      "name": "di",
+      "answer": "di"
+    },
+    {
+      "id": 35,
+      "name": "dí",
+      "answer": "dí"
+    },
+    {
+      "id": 36,
+      "name": "du",
+      "answer": "du"
+    },
+    {
+      "id": 37,
+      "name": "dú",
+      "answer": "dú"
+    },
+    {
+      "id": 38,
+      "name": "de",
+      "answer": "de"
+    },
+    {
+      "id": 39,
+      "name": "do",
+      "answer": "do"
+    },
+    {
+      "id": 40,
+      "name": "dang",
+      "answer": "dang"
+    },
+    {
+      "id": 41,
+      "name": "ná",
+      "answer": "ná"
+    },
+    {
+      "id": 42,
+      "name": "ni",
+      "answer": "ni"
+    },
+    {
+      "id": 43,
+      "name": "ní",
+      "answer": "ní"
+    },
+    {
+      "id": 44,
+      "name": "nu",
+      "answer": "nu"
+    },
+    {
+      "id": 45,
+      "name": "nú",
+      "answer": "nú"
+    },
+    {
+      "id": 46,
+      "name": "ne",
+      "answer": "ne"
+    },
+    {
+      "id": 47,
+      "name": "no",
+      "answer": "no"
+    },
+    {
+      "id": 48,
+      "name": "nang",
+      "answer": "nang"
+    },
+    {
+      "id": 49,
+      "name": "lá",
+      "answer": "lá"
+    },
+    {
+      "id": 50,
+      "name": "li",
+      "answer": "li"
+    },
+    {
+      "id": 51,
+      "name": "lí",
+      "answer": "lí"
+    },
+    {
+      "id": 52,
+      "name": "lu",
+      "answer": "lu"
+    },
+    {
+      "id": 53,
+      "name": "lú",
+      "answer": "lú"
+    },
+    {
+      "id": 54,
+      "name": "le",
+      "answer": "le"
+    },
+    {
+      "id": 55,
+      "name": "lo",
+      "answer": "lo"
+    },
+    {
+      "id": 56,
+      "name": "lang",
+      "answer": "lang"
+    },
+    {
+      "id": 57,
+      "name": "sá",
+      "answer": "sá"
+    },
+    {
+      "id": 58,
+      "name": "si",
+      "answer": "si"
+    },
+    {
+      "id": 59,
+      "name": "sí",
+      "answer": "sí"
+    },
+    {
+      "id": 60,
+      "name": "su",
+      "answer": "su"
+    },
+    {
+      "id": 61,
+      "name": "sú",
+      "answer": "sú"
+    },
+    {
+      "id": 62,
+      "name": "se",
+      "answer": "se"
+    },
+    {
+      "id": 63,
+      "name": "so",
+      "answer": "so"
+    },
+    {
+      "id": 64,
+      "name": "sang",
+      "answer": "sang"
+    },
+    {
+      "id": 65,
+      "name": "má",
+      "answer": "má"
+    },
+    {
+      "id": 66,
+      "name": "mi",
+      "answer": "mi"
+    },
+    {
+      "id": 67,
+      "name": "mí",
+      "answer": "mí"
+    },
+    {
+      "id": 68,
+      "name": "mu",
+      "answer": "mu"
+    },
+    {
+      "id": 69,
+      "name": "mú",
+      "answer": "mú"
+    },
+    {
+      "id": 70,
+      "name": "me",
+      "answer": "me"
+    },
+    {
+      "id": 71,
+      "name": "mo",
+      "answer": "mo"
+    },
+    {
+      "id": 72,
+      "name": "mang",
+      "answer": "mang"
+    },
+    {
+      "id": 73,
+      "name": "pá",
+      "answer": "pá"
+    },
+    {
+      "id": 74,
+      "name": "pi",
+      "answer": "pi"
+    },
+    {
+      "id": 75,
+      "name": "pí",
+      "answer": "pí"
+    },
+    {
+      "id": 76,
+      "name": "pu",
+      "answer": "pu"
+    },
+    {
+      "id": 77,
+      "name": "pú",
+      "answer": "pú"
+    },
+    {
+      "id": 78,
+      "name": "pe",
+      "answer": "pe"
+    },
+    {
+      "id": 79,
+      "name": "po",
+      "answer": "po"
+    },
+    {
+      "id": 80,
+      "name": "pang",
+      "answer": "pang"
+    },
+    {
+      "id": 81,
+      "name": "bá",
+      "answer": "bá"
+    },
+    {
+      "id": 82,
+      "name": "bi",
+      "answer": "bi"
+    },
+    {
+      "id": 83,
+      "name": "bí",
+      "answer": "bí"
+    },
+    {
+      "id": 84,
+      "name": "bu",
+      "answer": "bu"
+    },
+    {
+      "id": 85,
+      "name": "bú",
+      "answer": "bú"
+    },
+    {
+      "id": 86,
+      "name": "be",
+      "answer": "be"
+    },
+    {
+      "id": 87,
+      "name": "bo",
+      "answer": "bo"
+    },
+    {
+      "id": 88,
+      "name": "bang",
+      "answer": "bang"
+    },
+    {
+      "id": 89,
+      "name": "yá",
+      "answer": "yá"
+    },
+    {
+      "id": 90,
+      "name": "yi",
+      "answer": "yi"
+    },
+    {
+      "id": 91,
+      "name": "yí",
+      "answer": "yí"
+    },
+    {
+      "id": 92,
+      "name": "yu",
+      "answer": "yu"
+    },
+    {
+      "id": 93,
+      "name": "yú",
+      "answer": "yú"
+    },
+    {
+      "id": 94,
+      "name": "ye",
+      "answer": "ye"
+    },
+    {
+      "id": 95,
+      "name": "yo",
+      "answer": "yo"
+    },
+    {
+      "id": 96,
+      "name": "yang",
+      "answer": "yang"
+    },
+    {
+      "id": 97,
+      "name": "wá",
+      "answer": "wá"
+    },
+    {
+      "id": 98,
+      "name": "wi",
+      "answer": "wi"
+    },
+    {
+      "id": 99,
+      "name": "wí",
+      "answer": "wí"
+    },
+    {
+      "id": 100,
+      "name": "wu",
+      "answer": "wu"
+    },
+    {
+      "id": 101,
+      "name": "wú",
+      "answer": "wú"
+    },
+    {
+      "id": 102,
+      "name": "we",
+      "answer": "we"
+    },
+    {
+      "id": 103,
+      "name": "wo",
+      "answer": "wo"
+    },
+    {
+      "id": 104,
+      "name": "wang",
+      "answer": "wang"
+    },
+    {
+      "id": 105,
+      "name": "ya",
+      "answer": "ya"
+    },
+    {
+      "id": 106,
+      "name": "wa",
+      "answer": "wa"
+    }
+  ]
+}

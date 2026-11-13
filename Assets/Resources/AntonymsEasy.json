@@ -1,0 +1,294 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Aliwa",
+      "answer": "Parewu"
+    },
+    {
+      "id": 2,
+      "name": "Aminan",
+      "answer": "Tan"
+    },
+    {
+      "id": 3,
+      "name": "Abe",
+      "answer": "Kapate"
+    },
+    {
+      "id": 4,
+      "name": "Aku",
+      "answer": "Ika"
+    },
+    {
+      "id": 5,
+      "name": "Alak",
+      "answer": "Danum"
+    },
+    {
+      "id": 6,
+      "name": "Alat",
+      "answer": "Mayumu"
+    },
+    {
+      "id": 7,
+      "name": "Ambun",
+      "answer": "Uran"
+    },
+    {
+      "id": 8,
+      "name": "Atras",
+      "answer": "Sulung"
+    },
+    {
+      "id": 9,
+      "name": "Anak",
+      "answer": "Matua"
+    },
+    {
+      "id": 10,
+      "name": "Babai",
+      "answer": "Lalaki"
+    },
+    {
+      "id": 11,
+      "name": "Basa",
+      "answer": "Malangi"
+    },
+    {
+      "id": 12,
+      "name": "Bayat",
+      "answer": "Kayan"
+    },
+    {
+      "id": 13,
+      "name": "Bunsu",
+      "answer": "Pangane"
+    },
+    {
+      "id": 14,
+      "name": "Bida",
+      "answer": "Kontra"
+    },
+    {
+      "id": 15,
+      "name": "Balat",
+      "answer": "Laman"
+    },
+    {
+      "id": 16,
+      "name": "Bantut",
+      "answer": "Banglu"
+    },
+    {
+      "id": 17,
+      "name": "Dakal",
+      "answer": "Ditak"
+    },
+    {
+      "id": 18,
+      "name": "Datang",
+      "answer": "Mako"
+    },
+    {
+      "id": 19,
+      "name": "Dinan",
+      "answer": "Tanggap"
+    },
+    {
+      "id": 20,
+      "name": "E Siguradu",
+      "answer": "Siguradu"
+    },
+    {
+      "id": 21,
+      "name": "Gawan",
+      "answer": "Siran"
+    },
+    {
+      "id": 22,
+      "name": "Gapang",
+      "answer": "Lakad"
+    },
+    {
+      "id": 23,
+      "name": "Iglip",
+      "answer": "Gising"
+    },
+    {
+      "id": 24,
+      "name": "Iganti",
+      "answer": "Malati"
+    },
+    {
+      "id": 25,
+      "name": "Ila",
+      "answer": "Itamu"
+    },
+    {
+      "id": 26,
+      "name": "Kaluguran",
+      "answer": "Kasaman"
+    },
+    {
+      "id": 27,
+      "name": "Kanal",
+      "answer": "Sapa"
+    },
+    {
+      "id": 28,
+      "name": "Kaba",
+      "answer": "Kuto"
+    },
+    {
+      "id": 29,
+      "name": "Kulang",
+      "answer": "Sobra"
+    },
+    {
+      "id": 30,
+      "name": "Kuyad",
+      "answer": "Kaba"
+    },
+    {
+      "id": 31,
+      "name": "Lanat",
+      "answer": "Malambut"
+    },
+    {
+      "id": 32,
+      "name": "Laso",
+      "answer": "Buo"
+    },
+    {
+      "id": 33,
+      "name": "Lundag",
+      "answer": "Labwad"
+    },
+    {
+      "id": 34,
+      "name": "Madalumdum",
+      "answer": "Masala"
+    },
+    {
+      "id": 35,
+      "name": "Maingat",
+      "answer": "Pabaya"
+    },
+    {
+      "id": 36,
+      "name": "Makupad",
+      "answer": "Mabilis"
+    },
+    {
+      "id": 37,
+      "name": "Malapit",
+      "answer": "Marayu"
+    },
+    {
+      "id": 38,
+      "name": "Malati",
+      "answer": "Maragul"
+    },
+    {
+      "id": 39,
+      "name": "Malungkut",
+      "answer": "Matula"
+    },
+    {
+      "id": 40,
+      "name": "Mapait",
+      "answer": "Mayumu"
+    },
+    {
+      "id": 41,
+      "name": "Mapinu",
+      "answer": "Magaspang"
+    },
+    {
+      "id": 42,
+      "name": "Maragul",
+      "answer": "Malati"
+    },
+    {
+      "id": 43,
+      "name": "Masipag",
+      "answer": "Matamad"
+    },
+    {
+      "id": 44,
+      "name": "Mataba",
+      "answer": "Payat"
+    },
+    {
+      "id": 45,
+      "name": "Mataram",
+      "answer": "Mapurul"
+    },
+    {
+      "id": 46,
+      "name": "Matipid",
+      "answer": "Magastus"
+    },
+    {
+      "id": 47,
+      "name": "Mayan",
+      "answer": "Mabayat"
+    },
+    {
+      "id": 48,
+      "name": "Mayumu",
+      "answer": "Maslam"
+    },
+    {
+      "id": 49,
+      "name": "Mete",
+      "answer": "Mabiye"
+    },
+    {
+      "id": 50,
+      "name": "Ngeni",
+      "answer": "Dati"
+    },
+    {
+      "id": 51,
+      "name": "Pekamababa",
+      "answer": "Pekamatas"
+    },
+    {
+      "id": 52,
+      "name": "Putut",
+      "answer": "Buo"
+    },
+    {
+      "id": 53,
+      "name": "Sulit",
+      "answer": "Sayang"
+    },
+    {
+      "id": 54,
+      "name": "Sulung",
+      "answer": "Atras"
+    },
+    {
+      "id": 55,
+      "name": "Sigla",
+      "answer": "Tayimik"
+    },
+    {
+      "id": 56,
+      "name": "Siran",
+      "answer": "Gawan"
+    },
+    {
+      "id": 57,
+      "name": "Tau",
+      "answer": "Animal"
+    },
+    {
+      "id": 58,
+      "name": "Tapang",
+      "answer": "Takut"
+    }
+  ]
+}

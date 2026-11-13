@@ -1,0 +1,399 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "AGRESIVU",
+      "answer": "MATAPANG"
+    },
+    {
+      "id": 2,
+      "name": "BURARA",
+      "answer": "BUSALSAL"
+    },
+    {
+      "id": 3,
+      "name": "ABONO",
+      "answer": "PATABA"
+    },
+    {
+      "id": 4,
+      "name": "GAYAD",
+      "answer": "GAYAC"
+    },
+    {
+      "id": 5,
+      "name": "MABAGAL",
+      "answer": "MABUGAL"
+    },
+    {
+      "id": 6,
+      "name": "ADOLESCENTE",
+      "answer": "MAGDALAGA"
+    },
+    {
+      "id": 7,
+      "name": "DALUBHASA",
+      "answer": "PANTAS"
+    },
+    {
+      "id": 8,
+      "name": "MASELAN",
+      "answer": "PIHIKAN"
+    },
+    {
+      "id": 9,
+      "name": "BALAC",
+      "answer": "PLANU"
+    },
+    {
+      "id": 10,
+      "name": "FIHADU",
+      "answer": "SIGURADU"
+    },
+    {
+      "id": 11,
+      "name": "KUTILA",
+      "answer": "TELATAG"
+    },
+    {
+      "id": 12,
+      "name": "AYTA",
+      "answer": "BALUGA"
+    },
+    {
+      "id": 13,
+      "name": "HENIO",
+      "answer": "PANTAS"
+    },
+    {
+      "id": 14,
+      "name": "MABULUK",
+      "answer": "MASANGSANG"
+    },
+    {
+      "id": 15,
+      "name": "MAPAIT",
+      "answer": "MASAKLAP"
+    },
+    {
+      "id": 16,
+      "name": "LABANGAT",
+      "answer": "CONTRA"
+    },
+    {
+      "id": 17,
+      "name": "ALAGAD",
+      "answer": "TALASUYU"
+    },
+    {
+      "id": 18,
+      "name": "GASPANG",
+      "answer": "GALAS"
+    },
+    {
+      "id": 19,
+      "name": "MAPAMIRU",
+      "answer": "BIRU"
+    },
+    {
+      "id": 20,
+      "name": "LACAT",
+      "answer": "GALAGALA"
+    },
+    {
+      "id": 21,
+      "name": "ESTUPIDO",
+      "answer": "MULALA"
+    },
+    {
+      "id": 22,
+      "name": "DAPOT",
+      "answer": "PERO"
+    },
+    {
+      "id": 23,
+      "name": "FABULOSO",
+      "answer": "CABALITAN"
+    },
+    {
+      "id": 24,
+      "name": "MATARAY",
+      "answer": "SUPLADA"
+    },
+    {
+      "id": 25,
+      "name": "CAMPI",
+      "answer": "CAPANIG"
+    },
+    {
+      "id": 26,
+      "name": "MANGMANG",
+      "answer": "ALANG BALU"
+    },
+    {
+      "id": 27,
+      "name": "FAMA",
+      "answer": "CABANTUGAN"
+    },
+    {
+      "id": 28,
+      "name": "YAYA",
+      "answer": "SISIWA"
+    },
+    {
+      "id": 29,
+      "name": "ALBULA'RYU",
+      "answer": "ILUT"
+    },
+    {
+      "id": 30,
+      "name": "LAGUSGUS",
+      "answer": "LAGUNTAK"
+    },
+    {
+      "id": 31,
+      "name": "CAPITAL",
+      "answer": "CABECERA"
+    },
+    {
+      "id": 32,
+      "name": "LAPSU",
+      "answer": "MEPASU"
+    },
+    {
+      "id": 33,
+      "name": "CALAMUNDING",
+      "answer": "CALAMANSI"
+    },
+    {
+      "id": 34,
+      "name": "MAYNA",
+      "answer": "MABUYA"
+    },
+    {
+      "id": 35,
+      "name": "FAMOSO",
+      "answer": "PICABALUAN"
+    },
+    {
+      "id": 36,
+      "name": "DUWAG",
+      "answer": "MATALOTI"
+    },
+    {
+      "id": 37,
+      "name": "KINIENTOS",
+      "answer": "LIMANGDALAN"
+    },
+    {
+      "id": 38,
+      "name": "PACIFICO",
+      "answer": "PAYAPA"
+    },
+    {
+      "id": 39,
+      "name": "DINAT",
+      "answer": "KALAT"
+    },
+    {
+      "id": 40,
+      "name": "PALAPALA",
+      "answer": "BALAG"
+    },
+    {
+      "id": 41,
+      "name": "EHEMPLO",
+      "answer": "ALIMBAUA"
+    },
+    {
+      "id": 42,
+      "name": "GITIL",
+      "answer": "GILI"
+    },
+    {
+      "id": 43,
+      "name": "EMPAKE",
+      "answer": "BALUTAN"
+    },
+    {
+      "id": 44,
+      "name": "PAGAUAYAN",
+      "answer": "CASANGCAPAN"
+    },
+    {
+      "id": 45,
+      "name": "ESTADO",
+      "answer": "CABILIAN"
+    },
+    {
+      "id": 46,
+      "name": "PALA",
+      "answer": "CULCULAN"
+    },
+    {
+      "id": 47,
+      "name": "FANTASTICO",
+      "answer": "CALABISAN"
+    },
+    {
+      "id": 48,
+      "name": "RETRATO",
+      "answer": "LARAUAN"
+    },
+    {
+      "id": 49,
+      "name": "VIANDA",
+      "answer": "ULAN"
+    },
+    {
+      "id": 50,
+      "name": "ROMANSA",
+      "answer": "MIPAGLAMBIS"
+    },
+    {
+      "id": 51,
+      "name": "HI'LUT",
+      "answer": "ILUT"
+    },
+    {
+      "id": 52,
+      "name": "SACUNA",
+      "answer": "CALAMIDAD"
+    },
+    {
+      "id": 53,
+      "name": "IMAHEN",
+      "answer": "REBULTO"
+    },
+    {
+      "id": 54,
+      "name": "SANDAL",
+      "answer": "SANDIG"
+    },
+    {
+      "id": 55,
+      "name": "IMALAN",
+      "answer": "BARU"
+    },
+    {
+      "id": 56,
+      "name": "SOBRA",
+      "answer": "LABIS"
+    },
+    {
+      "id": 57,
+      "name": "KWAYAN",
+      "answer": "BALAG"
+    },
+    {
+      "id": 58,
+      "name": "TABURETE",
+      "answer": "LUKLUK"
+    },
+    {
+      "id": 59,
+      "name": "KINTETO",
+      "answer": "LIMAHAN"
+    },
+    {
+      "id": 60,
+      "name": "VALIENTE",
+      "answer": "MATAPANG"
+    },
+    {
+      "id": 61,
+      "name": "KITIL",
+      "answer": "PATEN"
+    },
+    {
+      "id": 62,
+      "name": "PACIENCIA",
+      "answer": "MAPANUPAYA"
+    },
+    {
+      "id": 63,
+      "name": "LANTA",
+      "answer": "LANAT"
+    },
+    {
+      "id": 64,
+      "name": "PADRINO",
+      "answer": "TEGAUAN"
+    },
+    {
+      "id": 65,
+      "name": "MAGANAKA",
+      "answer": "MAYAP"
+    },
+    {
+      "id": 66,
+      "name": "OFICIAL",
+      "answer": "LIDER"
+    },
+    {
+      "id": 67,
+      "name": "MANGUMPE",
+      "answer": "MANABAS"
+    },
+    {
+      "id": 68,
+      "name": "OFICIO",
+      "answer": "CATUNGCULAN"
+    },
+    {
+      "id": 69,
+      "name": "MAPLAS",
+      "answer": "MASAKIT"
+    },
+    {
+      "id": 70,
+      "name": "PARAPARE'U",
+      "answer": "PAREU"
+    },
+    {
+      "id": 71,
+      "name": "MASIKAN",
+      "answer": "MAPWERSA"
+    },
+    {
+      "id": 72,
+      "name": "NGISNGIS",
+      "answer": "NGISI"
+    },
+    {
+      "id": 73,
+      "name": "NINONG",
+      "answer": "TEGAUAN"
+    },
+    {
+      "id": 74,
+      "name": "NOBLE",
+      "answer": "IGAGALANG"
+    },
+    {
+      "id": 75,
+      "name": "ALISTU",
+      "answer": "ALERTU"
+    },
+    {
+      "id": 76,
+      "name": "AMINAN",
+      "answer": "SABIAN"
+    },
+    {
+      "id": 77,
+      "name": "ARAP",
+      "answer": "TALAD"
+    },
+    {
+      "id": 78,
+      "name": "ATAKI",
+      "answer": "DEPENSA"
+    },
+    {
+      "id": 79,
+      "name": "AWIG-AWIG",
+      "answer": "QAWIGQAWIG"
+    }
+  ]
+}

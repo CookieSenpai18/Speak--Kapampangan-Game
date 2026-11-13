@@ -1,0 +1,639 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_Text_kap
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: kap
+  m_SharedData: {fileID: 11400000, guid: b6d9b5c53f08c2a4b82bf2f77d08811c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 343393325056
+    m_Localized: Metung a Maglarin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8590279987200
+    m_Localized: Marakal a Maglarin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9523537793024
+    m_Localized: Impormasyun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11047341019136
+    m_Localized: Umpisan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12494807912448
+    m_Localized: PAMAMASA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12766233907200
+    m_Localized: KAWANGIS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13035453698048
+    m_Localized: KABALIGTARAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44068458876928
+    m_Localized: Mibalik keng Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44452749398016
+    m_Localized: Pasibaywan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45660604092416
+    m_Localized: Aryan ing Pyalung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49645641682944
+    m_Localized: Kasakitan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49980321976320
+    m_Localized: Klasi ni Oras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50391397322752
+    m_Localized: Modu ning Pyalung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52211779784704
+    m_Localized: Bilang da reng ustung sagut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52487647547392
+    m_Localized: Bilang da reng mialing sagut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52857975230464
+    m_Localized: Tatawling puntus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53755396902912
+    m_Localized: 'Pekamatas a sunud-sunud a ustung saagut '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54636301406208
+    m_Localized: Kabuuang ginamit a saup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56887816376320
+    m_Localized: Bilang da reng ustung pakibat king mumunang pili. Mituknap ing streak
+      nung mika mali kang pakibat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 579119885996032
+    m_Localized: Pamanayus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 573462176747520
+    m_Localized: Gulisak bang Manyambut!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 545575730040832
+    m_Localized: Alang kapupusan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 524496789721088
+    m_Localized: MASALUSU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 524327952207872
+    m_Localized: MALUMEME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 524114185310208
+    m_Localized: MASACIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523921968746496
+    m_Localized: CARAMPATAN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523774241165312
+    m_Localized: MALIGUA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 423787352182784
+    m_Localized: Ali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 423636315295744
+    m_Localized: Awa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 423225093148672
+    m_Localized: Siguradu ka bisa kang mako?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293722295521280
+    m_Localized: Amanu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278345637318656
+    m_Localized: Mamiling Amanu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143915664953344
+    m_Localized: Aryan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 576280518348800
+    m_Localized: Raund
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72574127460352
+    m_Localized: Ing Quecang Lagyu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73075426480128
+    m_Localized: Idad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73772171677696
+    m_Localized: Banua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74548889669632
+    m_Localized: Ing Quecang Casarian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75729917595648
+    m_Localized: Simpan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77138373267456
+    m_Localized: E Tuluy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79210397192192
+    m_Localized: Milabasan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79604351389696
+    m_Localized: Katuki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80232125452288
+    m_Localized: I-Reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81222824251392
+    m_Localized: Manibala king lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81790875619328
+    m_Localized: Makyabeng Pyalung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83215613579264
+    m_Localized: Sara
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82205881028608
+    m_Localized: Makananu tumayid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83719710199808
+    m_Localized: Mamiling uliran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84104394985472
+    m_Localized: Manibalang pyalung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85029750722560
+    m_Localized: Makyabeng pyalung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90006917369856
+    m_Localized: Mamiling Modu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143236980428800
+    m_Localized: 'Casarian:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142841562419200
+    m_Localized: Lage me ing banua mu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142090383544320
+    m_Localized: Lage me ing lagyu mu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140036000862208
+    m_Localized: Buuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133946592874496
+    m_Localized: Mabyasang Sumulat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125652407046144
+    m_Localized: Pakananu Pyalungan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105200066383872
+    m_Localized: Mibalik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 647073285689344
+    m_Localized: Lalaci
+    m_Metadata:
+      m_Items: []
+  - m_Id: 647266081067008
+    m_Localized: Babai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134313732886528
+    m_Localized: Tungkul kekami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57314523893760
+    m_Localized: +1 na hint balang 3 misusunud a ustung sagut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57715008622592
+    m_Localized: +10 puntus balang usutung sagut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69792397938688
+    m_Localized: Reng bilang da reng kutang darakal la basi keng kasakitan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70460084998144
+    m_Localized: Pindutan me ing lapis bang a customize me ing kekang Avatar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77467479330816
+    m_Localized: Ayusan me ing retratu keng buri mu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86146383499264
+    m_Localized: Mamiling manibala keng pyalung. Reng aliwang mamyalung tumayid la
+      keng parewu network bang makapakyabe keng kwartu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86538651586560
+    m_Localized: Potang mekagawa neng kwartu, reng aliwang mamyalung magsilbi nalang
+      makyabe keng parewung kwartu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87174860394496
+    m_Localized: Ing manibala iyang magumpisa king pyalung ustung matas ya keng metung
+      pero e lalagpas keng apat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93103832059904
+    m_Localized: Manayang king<br>malyaring manibala...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93982400335872
+    m_Localized: Bilang da reng sagut king kutang a ustu keng mumuna pamu, ing streak
+      mulit ya nung atin magkamali kekayu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96459367534592
+    m_Localized: Magkompyut ya ing nota king (1- (Player mistakes over 3*total rounds))
+      * 100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94697583693824
+    m_Localized: +15 puntus king 0 mali; o kaya, 10 - bilang da reng mali yu kening
+      laban
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97139884969984
+    m_Localized: Tauling round na ayabut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97538817806336
+    m_Localized: Tauling puntus ning grupu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97821916549120
+    m_Localized: Pekamatas a tuki-tuking streaks ning grupu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98136812310528
+    m_Localized: Eganaganang bilang da reng mali yu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99218187767808
+    m_Localized: Mibalik keng lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126149784391680
+    m_Localized: Parti ning pyalung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126619286392832
+    m_Localized: Pantunan ing kabaliktaran ning amanu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130540616699904
+    m_Localized: Pantunan ing kalupa ning amanu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131889223847936
+    m_Localized: Pakibalwan ing pamag agkas king kulitan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133354000633856
+    m_Localized: Talaturu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133583622000640
+    m_Localized: Diksyunaryu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135037644591104
+    m_Localized: 'Klasi da reng Kulitan:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135361893650432
+    m_Localized: Mamindut ka kareng nanu mang kulitan bang akit me makananu ya isulat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638367445700608
+    m_Localized: Panayan pa reng aliwang mamyalung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 640275308761088
+    m_Localized: 'Binotu na aryan ing pyalung: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1005739230777344
+    m_Localized: 'Mayap a aldo '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2320801383993344
+    m_Localized: Pamangawang Avatar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2319505801236480
+    m_Localized: Kabaligtaran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2318818681966592
+    m_Localized: Kawangis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1450338013302784
+    m_Localized: Saguli mu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1005974615117824
+    m_Localized: Bayu kapa ata keni ah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1006705371926528
+    m_Localized: Paburen mung turu ku keka kung pakananu ya pyalungan ini
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1007216091353088
+    m_Localized: Ing maragul a barahang ini, apin ini ing kutang na kaylangan mung
+      sagutan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1008171629301760
+    m_Localized: Rening atlung pindutan naman, apin reni reng kekang pagpilian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1009643267969024
+    m_Localized: Subukan meng pilinan ining mumuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1010841907777536
+    m_Localized: Aba... mali ya pala, buring sabyan aliwa ini ing ustung sagut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1013518104416256
+    m_Localized: Subukan taneman ing pang-adwa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014113431343104
+    m_Localized: Oyta mu, mali yarin pala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1016866589265920
+    m_Localized: Metung nemu ing mitagan...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1017408380096512
+    m_Localized: Oyta! Ikit tayarin ing ustung sagut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1018625651003392
+    m_Localized: Manikwa kang apulung puntus balang makasagut kang ustu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1019362078511104
+    m_Localized: Mapalitan yang panibayung kutang ing baraha balang masasagutan yang
+      ustu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1020199936872448
+    m_Localized: Aba! ating meliling hint keni, pindutan me ing baraha banta agamit
+      me ing hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1021689812373504
+    m_Localized: Lunto ya ing ustung sagut keng gulut ning baraha pag ginamit me
+      ing hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1022264381689856
+    m_Localized: Subukan meng pindutan ing sagut na papakit ning baraha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1022989992087552
+    m_Localized: Pag asagutan meng ustu ing baraha na alang kahit metung a mali,
+      tatas yang tsa metung ing kekang streak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1023834334842880
+    m_Localized: Subukan tayang parakalan ing kekang streak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1025751303737344
+    m_Localized: Woah! menikwa tamung metung a hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1024561413246976
+    m_Localized: Buring sabyan, balang maka atlu kang sunud-sunud na streak, manikwa
+      ka metung a hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1026431804395520
+    m_Localized: Ngening abalu mune kung pakananu ya pyalungan, Subukan mu naman
+      na ikang dili
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1027196878999552
+    m_Localized: Aroi! Pagisan ne pala ing oras, balamu itang kilala mu na alang
+      oras keka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1029438319251456
+    m_Localized: Masyadu neng makuyad ing oras para saya kapa keng pamamyalung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1052029989834752
+    m_Localized: Subukan meng pyalungan ing mismung pyalung gamit reng abalu mu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1405120736022528
+    m_Localized: Pwedi kang manikwang metung<br>hint balang katlung sunud-sunud a
+      streak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1406472925106176
+    m_Localized: Pindutan me ing baraha banta agamit<br>me ing hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1406924576149504
+    m_Localized: Mulit ya ing kekang streak potang<br>megkamali ka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1407425409601536
+    m_Localized: Pwedi meng bayuan ing kekang profile<br>potang pinindut me ing avatar
+      mu<br>keng pinaka menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1408899392884736
+    m_Localized: Kaylangan mung saup? Munta ka diksyunaryu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1409705491976192
+    m_Localized: Tipunan mula reng kekang hint para<br>kareng masasakit a kutang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1410175082057728
+    m_Localized: Mas mababyasa ka pag lulwat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1411597580259328
+    m_Localized: Kakabye ya ulit ing Kapampangan balang<br>salitang ababalu mu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1412221248098304
+    m_Localized: Sagutan meng ustu ing baraha na alang<br>mali banta dakal ya ing
+      kekang streak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1434152265469952
+    m_Localized: Eme paburen masira ing kekang streak<br>banta manikwa kang marakal
+      a hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1434867599822848
+    m_Localized: Makabalu kang bayung salitang<br>Kapampangan balang round
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1435136995774464
+    m_Localized: Pakibalwan mula reng salitang<br>Kapampangan kabang magkuswelu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1435560381403136
+    m_Localized: Asubukan muna mamyalung kayabe reng<br>barkada mo? Subukan ye ing
+      Marakal<br>a Maglarin na Modu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436039710658560
+    m_Localized: Eya tuknang ing oras potang pinause me<br>ing pyalung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1438769497919488
+    m_Localized: Manilkwa kayung metung a hint balang<br>katlung sunud-sunud a streak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1440412897529856
+    m_Localized: Misasanmetung ampo misabisabi kayung<br>migrupu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1440742938923008
+    m_Localized: Ing pamisabi-sabi ya ing talasusi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1441477739040768
+    m_Localized: Baka atsu keng aliwang maglarin ing ustung<br>sagut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1442263151824896
+    m_Localized: Ing kekang pipamilinan makasaup ya keng<br>kekang grupu bang apantun
+      ing<br>ustung sagut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1442785774686208
+    m_Localized: Eko magmadali; pisabyan yupa ing kekayung <br>pipamilinan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1443968736186368
+    m_Localized: Parakalan ye ing kekayung streak balang<br>asasagutan yeng ustu
+      ing kutang<br>na alang mali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1444727733243904
+    m_Localized: Eye paburen masira ing kekayung streak<br>banta manikwa kayung marakal
+      a hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1445651046354944
+    m_Localized: Abe-abe kayu keng hint, gamitan ye<br>kareng mangasakit a kutang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1447799595356160
+    m_Localized: Mamyalung tamu - Mabyasa tamu - Gulisak<br>taya ing Kapampangan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1455857440542720
+    m_Localized: 'Panayan lapa reng aliwang<br>maglarin '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1456908734451712
+    m_Localized: Makapirmi na! Pindutan ing Umpisan<br>bang makapamyalung na.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3815988467748864
+    m_Localized: Lapad ning Brotsa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4620278249705472
+    m_Localized: Pamamasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7743447839952896
+    m_Localized: Tatalan keng kutang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7743953450717184
+    m_Localized: Tatalan keng sagut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7744799752212480
+    m_Localized: Tatalan keng kutang ampo sagut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7753459790401536
+    m_Localized: Ing tatalan keng kutang dudurut ya kekayu ngan bawat round, tapus
+      ing ustung sagut mibibye ya kahit kaninu.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

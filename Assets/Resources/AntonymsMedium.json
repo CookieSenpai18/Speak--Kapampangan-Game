@@ -1,0 +1,499 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "ABUSADU",
+      "answer": "MAGANAKA"
+    },
+    {
+      "id": 2,
+      "name": "AKMUL",
+      "answer": "APSA"
+    },
+    {
+      "id": 3,
+      "name": "AGINALDU",
+      "answer": "ABULUY"
+    },
+    {
+      "id": 4,
+      "name": "ALBE",
+      "answer": "DAMDAMAN"
+    },
+    {
+      "id": 5,
+      "name": "ALISTU",
+      "answer": "MULALA"
+    },
+    {
+      "id": 6,
+      "name": "ALMUSAL",
+      "answer": "UGTUAN"
+    },
+    {
+      "id": 7,
+      "name": "ARGABYADU",
+      "answer": "LAMANG"
+    },
+    {
+      "id": 8,
+      "name": "ARAP",
+      "answer": "GULUT"
+    },
+    {
+      "id": 9,
+      "name": "ATIN",
+      "answer": "ALA"
+    },
+    {
+      "id": 10,
+      "name": "BABO",
+      "answer": "LALAM"
+    },
+    {
+      "id": 11,
+      "name": "BAGYU",
+      "answer": "MATUNUD"
+    },
+    {
+      "id": 12,
+      "name": "BALUKTUT",
+      "answer": "MATULID"
+    },
+    {
+      "id": 13,
+      "name": "BANGKU",
+      "answer": "LAMESA"
+    },
+    {
+      "id": 14,
+      "name": "BAWAL",
+      "answer": "MALYARI"
+    },
+    {
+      "id": 15,
+      "name": "BITIS",
+      "answer": "GAMAT"
+    },
+    {
+      "id": 16,
+      "name": "BENGI",
+      "answer": "ABAK"
+    },
+    {
+      "id": 17,
+      "name": "BIASA",
+      "answer": "LOKU"
+    },
+    {
+      "id": 18,
+      "name": "BAGE",
+      "answer": "MANONG"
+    },
+    {
+      "id": 19,
+      "name": "BAGUT",
+      "answer": "SAKSAK"
+    },
+    {
+      "id": 20,
+      "name": "BAIT",
+      "answer": "METE"
+    },
+    {
+      "id": 21,
+      "name": "BANAL",
+      "answer": "DEMONYUS"
+    },
+    {
+      "id": 22,
+      "name": "BUMAWAS",
+      "answer": "DAGDAGAN"
+    },
+    {
+      "id": 23,
+      "name": "BURAN",
+      "answer": "MANYULAT"
+    },
+    {
+      "id": 24,
+      "name": "DAKPAN",
+      "answer": "TAKAS"
+    },
+    {
+      "id": 25,
+      "name": "DAGUL",
+      "answer": "LATI"
+    },
+    {
+      "id": 26,
+      "name": "DALAS",
+      "answer": "LAGAD"
+    },
+    {
+      "id": 27,
+      "name": "DAMUSAK",
+      "answer": "LAKBANG"
+    },
+    {
+      "id": 28,
+      "name": "DANUP",
+      "answer": "MABSI"
+    },
+    {
+      "id": 29,
+      "name": "DINE",
+      "answer": "DANGALAN"
+    },
+    {
+      "id": 30,
+      "name": "E SIKASU",
+      "answer": "PANSINAN"
+    },
+    {
+      "id": 31,
+      "name": "E USTU",
+      "answer": "KATUTWAN"
+    },
+    {
+      "id": 32,
+      "name": "GALANTI",
+      "answer": "KURIPUT"
+    },
+    {
+      "id": 33,
+      "name": "GAMITAN",
+      "answer": "IBASURA"
+    },
+    {
+      "id": 34,
+      "name": "GILID",
+      "answer": "LIBUTAD"
+    },
+    {
+      "id": 35,
+      "name": "GLORYA",
+      "answer": "KARINAYAN"
+    },
+    {
+      "id": 36,
+      "name": "GULISAK",
+      "answer": "BULUNG"
+    },
+    {
+      "id": 37,
+      "name": "GUMATO",
+      "answer": "LUMBUG"
+    },
+    {
+      "id": 38,
+      "name": "IBALUKTUT",
+      "answer": "ITULID"
+    },
+    {
+      "id": 39,
+      "name": "ILELE",
+      "answer": "MAGLAKO"
+    },
+    {
+      "id": 40,
+      "name": "KABISADU",
+      "answer": "MAKAPAGMUMULA"
+    },
+    {
+      "id": 41,
+      "name": "KANDADU",
+      "answer": "MAKABUKLAT"
+    },
+    {
+      "id": 42,
+      "name": "KATUTUWAN",
+      "answer": "KALARAMAN"
+    },
+    {
+      "id": 43,
+      "name": "KILUB",
+      "answer": "LUAL"
+    },
+    {
+      "id": 44,
+      "name": "KALBU",
+      "answer": "PILUKA"
+    },
+    {
+      "id": 45,
+      "name": "KABIT",
+      "answer": "LAKO"
+    },
+    {
+      "id": 46,
+      "name": "KALDERU",
+      "answer": "KAWALI"
+    },
+    {
+      "id": 47,
+      "name": "KASAMAN",
+      "answer": "PABORITU"
+    },
+    {
+      "id": 48,
+      "name": "KATWANGAN",
+      "answer": "PENGARI"
+    },
+    {
+      "id": 49,
+      "name": "KAWANI",
+      "answer": "MIYABE"
+    },
+    {
+      "id": 50,
+      "name": "KILIK",
+      "answer": "TARYAN"
+    },
+    {
+      "id": 51,
+      "name": "KINABUKAS",
+      "answer": "SINAGLI"
+    },
+    {
+      "id": 52,
+      "name": "KIKYAK",
+      "answer": "MATULA"
+    },
+    {
+      "id": 53,
+      "name": "KUBU",
+      "answer": "BALE"
+    },
+    {
+      "id": 54,
+      "name": "KAPATE",
+      "answer": "KAKAPAMPI"
+    },
+    {
+      "id": 55,
+      "name": "KENI",
+      "answer": "KARIN"
+    },
+    {
+      "id": 56,
+      "name": "KULDAS",
+      "answer": "SAKE"
+    },
+    {
+      "id": 57,
+      "name": "KUSWELU",
+      "answer": "MALAS"
+    },
+    {
+      "id": 58,
+      "name": "KWINTAS",
+      "answer": "PULSERAS"
+    },
+    {
+      "id": 59,
+      "name": "LABUG",
+      "answer": "LINO"
+    },
+    {
+      "id": 60,
+      "name": "LARAINAN",
+      "answer": "SIRAN"
+    },
+    {
+      "id": 61,
+      "name": "LASUN",
+      "answer": "PAKAKAYAP"
+    },
+    {
+      "id": 62,
+      "name": "LUKLUK",
+      "answer": "TALAKAD"
+    },
+    {
+      "id": 63,
+      "name": "LUTUNG",
+      "answer": "KUNYAT"
+    },
+    {
+      "id": 64,
+      "name": "LAKAD",
+      "answer": "PULAYI"
+    },
+    {
+      "id": 65,
+      "name": "LUNDAG",
+      "answer": "LABWAD"
+    },
+    {
+      "id": 66,
+      "name": "MAGULU",
+      "answer": "MASALESE"
+    },
+    {
+      "id": 67,
+      "name": "MAGASPANG",
+      "answer": "MAPINU"
+    },
+    {
+      "id": 68,
+      "name": "MAKALTO",
+      "answer": "IMBISIBOL"
+    },
+    {
+      "id": 69,
+      "name": "MAKAMATAY",
+      "answer": "PANATAG"
+    },
+    {
+      "id": 70,
+      "name": "MAKAPAL",
+      "answer": "MAIMPIS"
+    },
+    {
+      "id": 71,
+      "name": "MAKASALIKUT",
+      "answer": "MAKALTO"
+    },
+    {
+      "id": 72,
+      "name": "MAKASARA",
+      "answer": "MAKABUKLAT"
+    },
+    {
+      "id": 73,
+      "name": "MAKIPAGKASUNDU",
+      "answer": "E MIKASUNDU"
+    },
+    {
+      "id": 74,
+      "name": "MAKIRAMDAM",
+      "answer": "E SIKASU"
+    },
+    {
+      "id": 75,
+      "name": "MALAGAD",
+      "answer": "MARALAS"
+    },
+    {
+      "id": 76,
+      "name": "MALAMBUT",
+      "answer": "MASYAS"
+    },
+    {
+      "id": 77,
+      "name": "MALINO",
+      "answer": "MALABUG"
+    },
+    {
+      "id": 78,
+      "name": "MALUPIT",
+      "answer": "MAGANAKA"
+    },
+    {
+      "id": 79,
+      "name": "MALWALAS",
+      "answer": "MAKIPUT"
+    },
+    {
+      "id": 80,
+      "name": "MAMAWAS",
+      "answer": "PIYABE"
+    },
+    {
+      "id": 81,
+      "name": "MAMULAI",
+      "answer": "TUKNANG"
+    },
+    {
+      "id": 82,
+      "name": "MANGULU",
+      "answer": "SUMAUP"
+    },
+    {
+      "id": 83,
+      "name": "MANANDAM",
+      "answer": "SALIWAN"
+    },
+    {
+      "id": 84,
+      "name": "MANIK",
+      "answer": "TIPA"
+    },
+    {
+      "id": 85,
+      "name": "MANUSTU",
+      "answer": "E USTU"
+    },
+    {
+      "id": 86,
+      "name": "MAPALI",
+      "answer": "MARIMLA"
+    },
+    {
+      "id": 87,
+      "name": "MAPAMYE",
+      "answer": "MAYMUT"
+    },
+    {
+      "id": 88,
+      "name": "MAPIPILITAN",
+      "answer": "BISA"
+    },
+    {
+      "id": 89,
+      "name": "MARAKAL",
+      "answer": "MARITAK"
+    },
+    {
+      "id": 90,
+      "name": "MARINAT",
+      "answer": "MALINIS"
+    },
+    {
+      "id": 91,
+      "name": "MASAGULI",
+      "answer": "MASAKIT"
+    },
+    {
+      "id": 92,
+      "name": "MASIKAN",
+      "answer": "MAYNA"
+    },
+    {
+      "id": 93,
+      "name": "MASLA",
+      "answer": "MADALUMDUM"
+    },
+    {
+      "id": 94,
+      "name": "MATAPANG",
+      "answer": "MATALOTI"
+    },
+    {
+      "id": 95,
+      "name": "MATIBE",
+      "answer": "MARUPUK"
+    },
+    {
+      "id": 96,
+      "name": "MATSURA",
+      "answer": "MALAGU"
+    },
+    {
+      "id": 97,
+      "name": "MATUNUD",
+      "answer": "MAMULANG"
+    },
+    {
+      "id": 98,
+      "name": "MENUS",
+      "answer": "MATINU"
+    },
+    {
+      "id": 99,
+      "name": "MURA",
+      "answer": "MAL"
+    }
+  ]
+}

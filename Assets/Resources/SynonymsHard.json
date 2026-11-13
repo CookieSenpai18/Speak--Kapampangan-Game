@@ -1,0 +1,659 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "ALANGA:LANG",
+      "answer": "TELABANWA"
+    },
+    {
+      "id": 2,
+      "name": "GARALGAL",
+      "answer": "CALANTUG"
+    },
+    {
+      "id": 3,
+      "name": "NGALANGALA",
+      "answer": "TELABANUA"
+    },
+    {
+      "id": 4,
+      "name": "ABONU",
+      "answer": "MAGPALUAL"
+    },
+    {
+      "id": 5,
+      "name": "TACTICA",
+      "answer": "CAPARALANAN"
+    },
+    {
+      "id": 6,
+      "name": "ULTRAMARINO",
+      "answer": "AZUL A SUBIDO"
+    },
+    {
+      "id": 7,
+      "name": "GITATA",
+      "answer": "SAPATAN"
+    },
+    {
+      "id": 8,
+      "name": "KETUNANTUNAN",
+      "answer": "KECAICAI"
+    },
+    {
+      "id": 9,
+      "name": "ALBURUTU",
+      "answer": "QALBURUTU"
+    },
+    {
+      "id": 10,
+      "name": "UCDU",
+      "answer": "INDAT"
+    },
+    {
+      "id": 11,
+      "name": "DA'MLAQ",
+      "answer": "DANGAL"
+    },
+    {
+      "id": 12,
+      "name": "OFERTORIO",
+      "answer": "PAMIDANUN"
+    },
+    {
+      "id": 13,
+      "name": "HALENDERO",
+      "answer": "MAKIGABUN"
+    },
+    {
+      "id": 14,
+      "name": "PAC-CLI",
+      "answer": "PATLI"
+    },
+    {
+      "id": 15,
+      "name": "TAGULING",
+      "answer": "CANAL"
+    },
+    {
+      "id": 16,
+      "name": "MALTRATO",
+      "answer": "CALULU"
+    },
+    {
+      "id": 17,
+      "name": "KITIKITI",
+      "answer": "PATUAGTUAG"
+    },
+    {
+      "id": 18,
+      "name": "UGNE",
+      "answer": "CABALUAN"
+    },
+    {
+      "id": 19,
+      "name": "MAHARLIKA",
+      "answer": "MACALAM"
+    },
+    {
+      "id": 20,
+      "name": "CALAMPAG",
+      "answer": "CALANTUG"
+    },
+    {
+      "id": 21,
+      "name": "RESPONSABILIDAD",
+      "answer": "PAKIBATAN"
+    },
+    {
+      "id": 22,
+      "name": "NYNCA",
+      "answer": "BITASANG ALI"
+    },
+    {
+      "id": 23,
+      "name": "LAC-CUE",
+      "answer": "MARAYA"
+    },
+    {
+      "id": 24,
+      "name": "DEMANDA",
+      "answer": "MASUKUL"
+    },
+    {
+      "id": 25,
+      "name": "OPORTUNIDAD",
+      "answer": "MAPANIAMANTALA"
+    },
+    {
+      "id": 26,
+      "name": "SACALI",
+      "answer": "PANLANG"
+    },
+    {
+      "id": 27,
+      "name": "UNIFICACION",
+      "answer": "PAMICAMETUNG"
+    },
+    {
+      "id": 28,
+      "name": "A'SLAG",
+      "answer": "SASLAG"
+    },
+    {
+      "id": 29,
+      "name": "NGAMANGAMA",
+      "answer": "MANGAMANGA"
+    },
+    {
+      "id": 30,
+      "name": "TAFETA",
+      "answer": "MALASUTLA"
+    },
+    {
+      "id": 31,
+      "name": "UNCION",
+      "answer": "PAMAGLANIA"
+    },
+    {
+      "id": 32,
+      "name": "MANDAMENTO",
+      "answer": "UTUS"
+    },
+    {
+      "id": 33,
+      "name": "SALIKUT",
+      "answer": "ISINUP"
+    },
+    {
+      "id": 34,
+      "name": "TACDE",
+      "answer": "CASANGGUYURAN"
+    },
+    {
+      "id": 35,
+      "name": "HIELO",
+      "answer": "MAGLIPAT"
+    },
+    {
+      "id": 36,
+      "name": "NOJU",
+      "answer": "PAYALAN"
+    },
+    {
+      "id": 37,
+      "name": "KEHA",
+      "answer": "TUTUL"
+    },
+    {
+      "id": 38,
+      "name": "E'MUT",
+      "answer": "AMUT"
+    },
+    {
+      "id": 39,
+      "name": "MAGNETO",
+      "answer": "BATUBALANI"
+    },
+    {
+      "id": 40,
+      "name": "TABTAB",
+      "answer": "PUNGUT"
+    },
+    {
+      "id": 41,
+      "name": "NUNU",
+      "answer": "PIPUNAN"
+    },
+    {
+      "id": 42,
+      "name": "UNICO",
+      "answer": "MAMUCUD"
+    },
+    {
+      "id": 43,
+      "name": "MASINAG",
+      "answer": "MASALA"
+    },
+    {
+      "id": 44,
+      "name": "DU'RAQ",
+      "answer": "LURAQ"
+    },
+    {
+      "id": 45,
+      "name": "MACHIN",
+      "answer": "CHONGGO"
+    },
+    {
+      "id": 46,
+      "name": "PACSA",
+      "answer": "SERIA"
+    },
+    {
+      "id": 47,
+      "name": "SAKILDAP",
+      "answer": "SEGUNDO"
+    },
+    {
+      "id": 48,
+      "name": "OFENSA",
+      "answer": "PAMICASALA"
+    },
+    {
+      "id": 49,
+      "name": "MAKWALTA",
+      "answer": "MAYAMAN"
+    },
+    {
+      "id": 50,
+      "name": "PE'TE",
+      "answer": "MATE"
+    },
+    {
+      "id": 51,
+      "name": "DALAMPU",
+      "answer": "PANIGAPU"
+    },
+    {
+      "id": 52,
+      "name": "KURA'P",
+      "answer": "KIRAT"
+    },
+    {
+      "id": 53,
+      "name": "ULATA",
+      "answer": "ALATA"
+    },
+    {
+      "id": 54,
+      "name": "BA'LU",
+      "answer": "BYU'DA"
+    },
+    {
+      "id": 55,
+      "name": "MANGE",
+      "answer": "MASIGLA"
+    },
+    {
+      "id": 56,
+      "name": "RELACION",
+      "answer": "PAMANALESE"
+    },
+    {
+      "id": 57,
+      "name": "U'BUG",
+      "answer": "PORMA"
+    },
+    {
+      "id": 58,
+      "name": "IMBUSKE",
+      "answer": "IMBES"
+    },
+    {
+      "id": 59,
+      "name": "TABUG",
+      "answer": "TAMPU"
+    },
+    {
+      "id": 60,
+      "name": "EDEN",
+      "answer": "PARAISO"
+    },
+    {
+      "id": 61,
+      "name": "NISNIS",
+      "answer": "LASLAS"
+    },
+    {
+      "id": 62,
+      "name": "VESTIBULO",
+      "answer": "ENTRADA"
+    },
+    {
+      "id": 63,
+      "name": "TAGU'",
+      "answer": "SALAK"
+    },
+    {
+      "id": 64,
+      "name": "AHENCIA",
+      "answer": "SANGLAAN"
+    },
+    {
+      "id": 65,
+      "name": "KU'TU",
+      "answer": "LIYAS"
+    },
+    {
+      "id": 66,
+      "name": "PALTUK",
+      "answer": "PAKBUNG"
+    },
+    {
+      "id": 67,
+      "name": "RESPONSABLE",
+      "answer": "APNIUALAN"
+    },
+    {
+      "id": 68,
+      "name": "BACUNG",
+      "answer": "MIYUGSE"
+    },
+    {
+      "id": 69,
+      "name": "GAMAL",
+      "answer": "SACMAL"
+    },
+    {
+      "id": 70,
+      "name": "DALAG",
+      "answer": "MAMUNDAKI"
+    },
+    {
+      "id": 71,
+      "name": "UNGRIA",
+      "answer": "MAGYAR"
+    },
+    {
+      "id": 72,
+      "name": "MASIRI",
+      "answer": "MATINDI"
+    },
+    {
+      "id": 73,
+      "name": "MALIARI",
+      "answer": "MAGSILBI"
+    },
+    {
+      "id": 74,
+      "name": "E'LU",
+      "answer": "YELU"
+    },
+    {
+      "id": 75,
+      "name": "VIVA!",
+      "answer": "LUID CA!"
+    },
+    {
+      "id": 76,
+      "name": "SOPAN",
+      "answer": "SAUP / SAUPAN"
+    },
+    {
+      "id": 77,
+      "name": "TAKDE'",
+      "answer": "PAGO'"
+    },
+    {
+      "id": 78,
+      "name": "FARAON",
+      "answer": "ARI"
+    },
+    {
+      "id": 79,
+      "name": "REHAS",
+      "answer": "BARANDILIAS"
+    },
+    {
+      "id": 80,
+      "name": "PALTUK",
+      "answer": "PAKBUNG"
+    },
+    {
+      "id": 81,
+      "name": "PANIKAN",
+      "answer": "UKYATAN"
+    },
+    {
+      "id": 82,
+      "name": "TILA'W",
+      "answer": "TULAUK"
+    },
+    {
+      "id": 83,
+      "name": "MALAMBING",
+      "answer": "MALAMBIS"
+    },
+    {
+      "id": 84,
+      "name": "MALAUT",
+      "answer": "MARAYU"
+    },
+    {
+      "id": 85,
+      "name": "MALUTU",
+      "answer": "MALARE"
+    },
+    {
+      "id": 86,
+      "name": "MALUNGKUT",
+      "answer": "MALUMBE"
+    },
+    {
+      "id": 87,
+      "name": "MALELDO",
+      "answer": "SEMANASANTA"
+    },
+    {
+      "id": 88,
+      "name": "INDAM",
+      "answer": "PARAM"
+    },
+    {
+      "id": 89,
+      "name": "INYAD",
+      "answer": "PENAKO"
+    },
+    {
+      "id": 90,
+      "name": "ILOHICO",
+      "answer": "ALA"
+    },
+    {
+      "id": 91,
+      "name": "IDEM",
+      "answer": "ANTIMURIN"
+    },
+    {
+      "id": 92,
+      "name": "IBE",
+      "answer": "CALUB"
+    },
+    {
+      "id": 93,
+      "name": "IBIE",
+      "answer": "CALUB"
+    },
+    {
+      "id": 94,
+      "name": "ILUSTRADOR",
+      "answer": "DIBUHISTA"
+    },
+    {
+      "id": 95,
+      "name": "GASLO",
+      "answer": "CABASTUSAN"
+    },
+    {
+      "id": 96,
+      "name": "LABULABU",
+      "answer": "RAMBULAN"
+    },
+    {
+      "id": 97,
+      "name": "NGILNGIL",
+      "answer": "NGALNGAL"
+    },
+    {
+      "id": 98,
+      "name": "NGURI",
+      "answer": "NGUDNGUD"
+    },
+    {
+      "id": 99,
+      "name": "NGIS",
+      "answer": "PACSA"
+    },
+    {
+      "id": 100,
+      "name": "ODI",
+      "answer": "ALBUGAN"
+    },
+    {
+      "id": 101,
+      "name": "OCUPASCION",
+      "answer": "OBRA"
+    },
+    {
+      "id": 102,
+      "name": "PADRUN",
+      "answer": "MODELO"
+    },
+    {
+      "id": 103,
+      "name": "PA'LA",
+      "answer": "TAPIL"
+    },
+    {
+      "id": 104,
+      "name": "PA:GUPIT",
+      "answer": "QURUD"
+    },
+    {
+      "id": 105,
+      "name": "SALA",
+      "answer": "AMPO"
+    },
+    {
+      "id": 106,
+      "name": "SAPLALA",
+      "answer": "BUNGI"
+    },
+    {
+      "id": 107,
+      "name": "SEGUNDA MANO",
+      "answer": "MEGAMIT NA"
+    },
+    {
+      "id": 108,
+      "name": "SEKUPAN",
+      "answer": "SAKUP"
+    },
+    {
+      "id": 109,
+      "name": "KETUNANTUNAN",
+      "answer": "KECAICAI"
+    },
+    {
+      "id": 110,
+      "name": "SU'KLE",
+      "answer": "ASWE"
+    },
+    {
+      "id": 111,
+      "name": "SA'UL / SA'HUL",
+      "answer": "SAMBUT"
+    },
+    {
+      "id": 112,
+      "name": "TA'CO",
+      "answer": "TANDANG"
+    },
+    {
+      "id": 113,
+      "name": "TA'U / TA'WU / TA'QU",
+      "answer": "KATAWAN"
+    },
+    {
+      "id": 114,
+      "name": "TACU",
+      "answer": "PANYULDUNG"
+    },
+    {
+      "id": 115,
+      "name": "TALBA",
+      "answer": "TAMPIPI"
+    },
+    {
+      "id": 116,
+      "name": "TULAU'K",
+      "answer": "TILA'W"
+    },
+    {
+      "id": 117,
+      "name": "TULDUQ",
+      "answer": "TURUQ"
+    },
+    {
+      "id": 118,
+      "name": "ULNAN",
+      "answer": "PILUNAN"
+    },
+    {
+      "id": 119,
+      "name": "UMPISA",
+      "answer": "KAPUPUSAN"
+    },
+    {
+      "id": 120,
+      "name": "UNION",
+      "answer": "CAMETUNGAN"
+    },
+    {
+      "id": 121,
+      "name": "VALLE",
+      "answer": "LAMBAC"
+    },
+    {
+      "id": 122,
+      "name": "VERIFICACION",
+      "answer": "PAMIPATUNE"
+    },
+    {
+      "id": 123,
+      "name": "VISTADO",
+      "answer": "MEVISTU"
+    },
+    {
+      "id": 124,
+      "name": "WANAN",
+      "answer": "KAYLI"
+    },
+    {
+      "id": 125,
+      "name": "WATI'WAT",
+      "answer": "ASAWA"
+    },
+    {
+      "id": 126,
+      "name": "FILTRO",
+      "answer": "SALACAN"
+    },
+    {
+      "id": 127,
+      "name": "BILIBID",
+      "answer": "MASUCUL"
+    },
+    {
+      "id": 128,
+      "name": "DALA",
+      "answer": "MAGTUKI"
+    },
+    {
+      "id": 129,
+      "name": "EXCELENCIA",
+      "answer": "CAGALANG-GALANG"
+    },
+    {
+      "id": 130,
+      "name": "FIHADU",
+      "answer": "SIGURADU"
+    },
+    {
+      "id": 131,
+      "name": "MIRINDAL",
+      "answer": "MIRYENDA"
+    }
+  ]
+}

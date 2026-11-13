@@ -1,0 +1,413 @@
+fileFormatVersion: 2
+guid: a78e77d664480694390e1b019fce41b8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 800
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clock_sprite_02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 800
+        height: 733
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      physicsShape:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50123a61550c9845b8940f5e1c5ea84
+      internalID: 2010881460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_sprite_02_1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 800
+        height: 733
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      physicsShape:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00b3fb75c60dcd4c9ae6855dcdace93
+      internalID: -375612280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_sprite_02_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 800
+        height: 733
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      physicsShape:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c79e5b53522a449b360e08710b0f7d
+      internalID: 2119755277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_sprite_02_3
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 800
+        height: 733
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      physicsShape:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34500343d09c11142b24d1602a3dfbae
+      internalID: 1053351602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_sprite_02_4
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 800
+        height: 733
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      physicsShape:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361576ab8d26cc846b1b31463c16d29a
+      internalID: 1582493922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_sprite_02_5
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 800
+        height: 733
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      physicsShape:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf53834b5e8f7243b6458c4284de6ca
+      internalID: -1936084449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_sprite_02_6
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 800
+        height: 733
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      physicsShape:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e1f9561afff514f88497e118640d72
+      internalID: 118589299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_sprite_02_7
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 0
+        width: 800
+        height: 733
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      physicsShape:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287f70d007d4b644e98625157450c295
+      internalID: 1094082059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clock_sprite_02_8
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 800
+        height: 733
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      physicsShape:
+      - - {x: 0, y: -366.5}
+        - {x: 400, y: 0}
+        - {x: 0, y: 366.5}
+        - {x: -400, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28080698275c7d94dae45cb94fffdf53
+      internalID: 71072341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6a9a4aa7287251c479e503f8c3af6dd9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":800.0,"y":733.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":3,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: False
+    nameFileIdTable:
+      clock_sprite_02_0: 2010881460
+      clock_sprite_02_1: -375612280
+      clock_sprite_02_2: 2119755277
+      clock_sprite_02_3: 1053351602
+      clock_sprite_02_4: 1582493922
+      clock_sprite_02_5: -1936084449
+      clock_sprite_02_6: 118589299
+      clock_sprite_02_7: 1094082059
+      clock_sprite_02_8: 71072341
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,624 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI_Text Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: UI_Text
+  m_TableCollectionNameGuidString: b6d9b5c53f08c2a4b82bf2f77d08811c
+  m_Entries:
+  - m_Id: 343393325056
+    m_Key: StartBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8590279987200
+    m_Key: MultiplayerBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9523537793024
+    m_Key: InformationBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11047341019136
+    m_Key: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12494807912448
+    m_Key: ReadingBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12766233907200
+    m_Key: SynonymsBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13035453698048
+    m_Key: AntonymsBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44068458876928
+    m_Key: Main_Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44452749398016
+    m_Key: Retry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45660604092416
+    m_Key: EndGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49645641682944
+    m_Key: TtDifficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49980321976320
+    m_Key: TtClockType
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50391397322752
+    m_Key: TtGameMode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52211779784704
+    m_Key: TtNumberOfCorrects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52487647547392
+    m_Key: TtNumberOfIncorrect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52857975230464
+    m_Key: TtFinalScore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53755396902912
+    m_Key: TtHighestConsecutiveStreak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54636301406208
+    m_Key: TtHintUsed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56887816376320
+    m_Key: TtStreakSingle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57314523893760
+    m_Key: TtHintSingle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57715008622592
+    m_Key: TtScoreSingle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69792397938688
+    m_Key: TtDifficultyDetails
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70460084998144
+    m_Key: TtAvatar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72574127460352
+    m_Key: Username
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73075426480128
+    m_Key: Profile_Age
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73772171677696
+    m_Key: Age_Suffix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74548889669632
+    m_Key: YourGender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75729917595648
+    m_Key: SaveBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77138373267456
+    m_Key: CancelBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77467479330816
+    m_Key: CropNote
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79210397192192
+    m_Key: PreviousBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79604351389696
+    m_Key: NextBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80232125452288
+    m_Key: ResetBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81222824251392
+    m_Key: Host_lobby_Btn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81790875619328
+    m_Key: JoinLobbyBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82205881028608
+    m_Key: HowToConnect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83215613579264
+    m_Key: CloseBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83719710199808
+    m_Key: SelectRole
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84104394985472
+    m_Key: HostGameTutorail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85029750722560
+    m_Key: JoinGameTutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86146383499264
+    m_Key: HostInsTut1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86538651586560
+    m_Key: HostInsTut2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87174860394496
+    m_Key: HostInsTut3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90006917369856
+    m_Key: SelectModeTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93103832059904
+    m_Key: WaitingForHostTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93982400335872
+    m_Key: TtStreakMulti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94697583693824
+    m_Key: TtScoreMulti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96459367534592
+    m_Key: TtRatingsDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97139884969984
+    m_Key: TtRoundDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97538817806336
+    m_Key: TtFinalScoreMulti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97821916549120
+    m_Key: TtHighestConsStreakMulti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98136812310528
+    m_Key: TtMistakesMulti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99218187767808
+    m_Key: ReturnToLobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105200066383872
+    m_Key: BackBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125652407046144
+    m_Key: HowToPlayTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126149784391680
+    m_Key: PartsOfTheGameTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126619286392832
+    m_Key: AntonymTutPage2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130540616699904
+    m_Key: SynonymsTutPage2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131889223847936
+    m_Key: WritingsTutPage2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133354000633856
+    m_Key: TutorialBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133583622000640
+    m_Key: LanguageGuideBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133946592874496
+    m_Key: LearnToWriteBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134313732886528
+    m_Key: AboutUsBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135037644591104
+    m_Key: TypesOfKulitanTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135361893650432
+    m_Key: ClickToLearnHowToWriteTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140036000862208
+    m_Key: CreateBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142090383544320
+    m_Key: EnterUsername
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142841562419200
+    m_Key: EnterAge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143236980428800
+    m_Key: GenderTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143915664953344
+    m_Key: FinishBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278345637318656
+    m_Key: SelectLanguage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293722295521280
+    m_Key: LanguageBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 423225093148672
+    m_Key: ExitTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 423636315295744
+    m_Key: YesTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 423787352182784
+    m_Key: NoTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523774241165312
+    m_Key: EasyTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523921968746496
+    m_Key: MediumTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 524114185310208
+    m_Key: HardTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 524327952207872
+    m_Key: SlowTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 524496789721088
+    m_Key: FastTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 545575730040832
+    m_Key: EndlessTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 573462176747520
+    m_Key: ShoutToWinTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 576280518348800
+    m_Key: RoundTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 579119885996032
+    m_Key: SettingsTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638367445700608
+    m_Key: WaitingPlayersReturnLobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 640275308761088
+    m_Key: EndGameVote
+    m_Metadata:
+      m_Items: []
+  - m_Id: 647073285689344
+    m_Key: MaleTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 647266081067008
+    m_Key: FemaleTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1005739230777344
+    m_Key: GreetingsTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1005974615117824
+    m_Key: NewPlayerTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1006705371926528
+    m_Key: OfferTutTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1007216091353088
+    m_Key: flashcardInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1008171629301760
+    m_Key: ChoicesInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1009643267969024
+    m_Key: Click1stChoice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1010841907777536
+    m_Key: Choice1 Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1013518104416256
+    m_Key: TryChoice2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014113431343104
+    m_Key: C2Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1016866589265920
+    m_Key: TryC3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1017408380096512
+    m_Key: C3Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1018625651003392
+    m_Key: ScoreTutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1019362078511104
+    m_Key: NextRoundTut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1020199936872448
+    m_Key: HintTut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1021689812373504
+    m_Key: HintDisplayTut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1022264381689856
+    m_Key: SelectAnsFromHint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1022989992087552
+    m_Key: StreakTut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1023834334842880
+    m_Key: AccuStreak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1024561413246976
+    m_Key: got3Streak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1025751303737344
+    m_Key: got1Hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1026431804395520
+    m_Key: TrySelf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1027196878999552
+    m_Key: TimerTut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1029438319251456
+    m_Key: minorDetails
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1052029989834752
+    m_Key: FinalTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1405120736022528
+    m_Key: stip1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1406472925106176
+    m_Key: stip2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1406924576149504
+    m_Key: stip3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1407425409601536
+    m_Key: stip4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1408899392884736
+    m_Key: stip5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1409705491976192
+    m_Key: stip6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1410175082057728
+    m_Key: stip7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1411597580259328
+    m_Key: stip8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1412221248098304
+    m_Key: stip9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1434152265469952
+    m_Key: stip10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1434867599822848
+    m_Key: stip11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1435136995774464
+    m_Key: stip12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1435560381403136
+    m_Key: stip13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436039710658560
+    m_Key: stip14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1438769497919488
+    m_Key: mtip1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1440412897529856
+    m_Key: mtip2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1440742938923008
+    m_Key: mtip3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1441477739040768
+    m_Key: mtip4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1442263151824896
+    m_Key: mtip5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1442785774686208
+    m_Key: mtip6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1443968736186368
+    m_Key: mtip7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1444727733243904
+    m_Key: mtip8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1445651046354944
+    m_Key: mtip9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1447799595356160
+    m_Key: mtip10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1450338013302784
+    m_Key: loadingTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1455857440542720
+    m_Key: WaitingTXt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1456908734451712
+    m_Key: allSetTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2318818681966592
+    m_Key: SynonymsLowered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2319505801236480
+    m_Key: AntonymLowered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2320801383993344
+    m_Key: createAva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3815988467748864
+    m_Key: BrushSize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4620278249705472
+    m_Key: ReadingLowered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7733005692325888
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7743447839952896
+    m_Key: QuestionHolder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7743953450717184
+    m_Key: AnswerHolder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7744799752212480
+    m_Key: Q&A Holder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7753459790401536
+    m_Key: HowToPlayMultiInfo
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2310111488733348046
+  references:
+    version: 2
+    RefIds:
+    - rid: 2310111488733348046
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1788804145072

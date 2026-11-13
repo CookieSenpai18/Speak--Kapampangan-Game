@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SceneTransitions/Bootstrap.unity
+    guid: c39a9f8c565090d4b9fd64b0ef93d11f
+  - enabled: 1
+    path: Assets/Scenes/SinglePlayer/MainGame.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/SinglePlayer/Single_Indu.unity
+    guid: 8a5eaa750eca5de4396a2827ca55eb0d
+  - enabled: 1
+    path: Assets/Scenes/SinglePlayer/Single_Synonyms.unity
+    guid: 7e2403a434a5dee44a6936518d38fd60
+  - enabled: 1
+    path: Assets/Scenes/SinglePlayer/Single_Antonyms.unity
+    guid: 104cde8bb385b6b49bfb5300114de2ae
+  - enabled: 1
+    path: Assets/Scenes/SinglePlayer/SingleMode_Selection.unity
+    guid: 6339114276f1108489b590140d1f4ab2
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 44efbd3dd7696004ea9a240c9f4396da
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer Scene/MultiCustom.unity
+    guid: 89b164c88d79a244d86cb14466333f93
+  - enabled: 1
+    path: Assets/Scenes/InfoScenes/Information.unity
+    guid: b2c968a85c822b6418f43731dfa6b26b
+  - enabled: 1
+    path: Assets/Scenes/InfoScenes/AntonymsTut.unity
+    guid: 757fc191404345b409f9402da351f000
+  - enabled: 1
+    path: Assets/Scenes/InfoScenes/SynonymsTut.unity
+    guid: f828ce3d4c664a849a1dd9c9feeb3487
+  - enabled: 1
+    path: Assets/Scenes/InfoScenes/ReadingsTut.unity
+    guid: 7db65bf5832b96641b394cf28fd94653
+  - enabled: 1
+    path: Assets/Scenes/ProfileMenu.unity
+    guid: e7d2b43f620e79a41b6b7a5446835d11
+  - enabled: 0
+    path: Assets/Scenes/Create Avatar.unity
+    guid: 20811f6c423676547bc8d09189e81fd2
+  - enabled: 0
+    path: Assets/Scenes/Language.unity
+    guid: 3380bbc922dd01543ac4fb29df6690be
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer Scene/MultiplayerMode.unity
+    guid: 04dc51be65e229045bc323b8b7565248
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer Scene/Multi_Client.unity
+    guid: 1b61c762e03e05c47b70ca847172f0b0
+  - enabled: 1
+    path: Assets/Scenes/InfoScenes/Tutorial.unity
+    guid: f9dc840e2ef63db448ace29a39fdab9a
+  - enabled: 1
+    path: Assets/Scenes/InfoScenes/Introduction.unity
+    guid: 53019e570de342d4a9eab53cc55ff515
+  - enabled: 1
+    path: Assets/Scenes/InfoScenes/About Us.unity
+    guid: bc9383efe097c0446b23362f0391ac3a
+  - enabled: 1
+    path: Assets/Scenes/InfoScenes/Intro 2.unity
+    guid: 14472e440ea4e32409d26806c60965f1
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer Scene/Multi_Indu.unity
+    guid: 7d67774851bfc4745abd5177bf2af37a
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer Scene/MultiSelectMode.unity
+    guid: bba2164940d1cda41915660cb8a528df
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer Scene/Multi_Host.unity
+    guid: 4ed6af060fef27b4b91e04f56439142b
+  - enabled: 1
+    path: Assets/Scenes/SinglePlayer/SingleCustom.unity
+    guid: 5d8ec5b7f007b4f41af0a0b059be0d8c
+  - enabled: 1
+    path: Assets/Scenes/SceneTransitions/LoadingScreen.unity
+    guid: 40c38dbe98048024b90db651db7ff80d
+  - enabled: 1
+    path: Assets/Scenes/SceneTransitions/BootIntro.unity
+    guid: c535ea906d405874b9d4e1218c8e0a11
+  - enabled: 1
+    path: Assets/Scenes/Other Mechanics/TracingScripts.unity
+    guid: ad78252cb526e0e4394a46c3adba9a62
+  - enabled: 1
+    path: Assets/Scenes/SinglePlayer/GameplayTutorial.unity
+    guid: 13ac3cea97461314d9590b85e5ee006f
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 5b00bde0ea23c3649a35baabb31075cb, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: 87127ee1d89c2b74aa5d4ce9e78f7048, type: 2}
