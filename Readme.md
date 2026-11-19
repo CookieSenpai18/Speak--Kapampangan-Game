@@ -270,7 +270,7 @@ SPEAK-KAPAMPANGAN/
 
 - **Current Version:** 1.0.7
 - **Build:** 1
-- **Release Status:** Official
+- **Release Status:** Underway
 
 SPEAK KAPAMPANGAN was developed as an academic capstone project under the Bachelor of Science in Information Technology program at Pampanga State University.
 
