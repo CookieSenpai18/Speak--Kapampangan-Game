@@ -76,7 +76,7 @@ This project was developed as part of the academic capstone requirement for the 
 
 ### Multiplayer Mode
 
-- **Multiplayer Quiz Activities** – Allows multiple players to participate in language-learning activities.
+- **Multiplayer Quiz Activities** – Allows upto 4 players to participate in language-learning activities.
 - **Collaborative Learning** – Encourages players to learn and participate together through shared quiz experiences.
 - **Network-Based Gameplay** – Utilizes the Mirror networking framework to support multiplayer functionality.
 
