@@ -857,6 +857,12 @@ void LoadVocabularyFile(
         );
 
         statsRecorder.RecordGameData();
+
+        var perf = FindAnyObjectByType<PerfStatDis>();
+        if(perf != null)
+                {
+                    perf.DisplayStatsMulti(sharedScore, highestConsecutiveFirstChoice, totalMistakes);
+                }
     }
 
     [Server]

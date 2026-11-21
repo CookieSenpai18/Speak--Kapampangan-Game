@@ -3,22 +3,17 @@ using System.Transactions;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class GameTimer : MonoBehaviour
 {
-
     [Header("Timer Colors")]
     public Color normalColor = Color.white;
     public Color warningColor = Color.red;
-
     public Image clockImageAnimated;
     public Image clockImageStatic;
     public Animator clockAnimator;
     public Image timerShake;
     public float animationDuration = 2f;
     public TMP_Text digitalClock;
-
-
     public static GameTimer Instance;
     public GameObject times_up_textholder;
     public Image timer_linear_image;
@@ -30,19 +25,20 @@ public class GameTimer : MonoBehaviour
     public GameObject timerBar, scoreBar, pauseButton, pausePanel;   // To disable when time's up
     //public GameObject timer_radial_textholder;   //idk
     public Image titleImage;
-
     public bool isPaused = false;
     bool isTimeClosing = false;
     bool animationPlayed = false;
     int timeData = 0;
     bool isGuessing = false;
-
     public int elapsedTime = 0;
-
     bool isTinted = false;
     public TMP_Text moneyReceived;
-
-
+    public bool isNewScore = false;
+    public bool isNewStreak = false;
+    public bool isNewRound = false;
+    public GameObject highScoreLabel;
+    public GameObject highStreakLabel;
+    public GameObject highRoundLabel;
     void Awake()
     {
         if(Instance != null && Instance != this)
@@ -52,13 +48,11 @@ public class GameTimer : MonoBehaviour
         }
         Instance = this;
     }
-    
     void Start()
     {
         elapsedTime = 0;
         clockAnimator.enabled = isTimeClosing;
         timeData = PlayerPrefs.GetInt("TimeDuration", 0);
-
         switch (timeData)
         {
             case 0:
@@ -73,30 +67,22 @@ public class GameTimer : MonoBehaviour
                 break;
         }
         time_remaining = max_time;
-
         digitalClock.text = ConvertTime(Mathf.CeilToInt(time_remaining));
-
         StartCoroutine(ElapsedTimeCounter());
     }
-
     // Update is called once per frame
     void Update()
     {
-        
         if (isPaused || timeUp || isFrozen)
         {
             return; // Skip updating the timer if the game is paused or time is up
         }
-
-        
         if (time_remaining > 0)
         {
             CheckTimeRemaining();
             time_remaining -= Time.deltaTime;
             timer_linear_image.fillAmount = time_remaining / max_time;
             digitalClock.text = ConvertTime(Mathf.CeilToInt(time_remaining));
-
-            
             if (time_remaining <= 20f)
             {
                 float t = 1f - (time_remaining / 20f);
@@ -112,6 +98,7 @@ public class GameTimer : MonoBehaviour
             if (!timeUp) // run only once
             {
         var guessBeh = FindAnyObjectByType<GuessingBehavior>();
+        SaveMoney();
         if (guessBeh != null) 
         {
                 if (!LoadingScreen.isFromTutorial)
@@ -119,7 +106,8 @@ public class GameTimer : MonoBehaviour
                         RecordGameData();
                         guessBeh.EvaluateResults();
                         guessBeh.isTimerRunning = false;
-                        isGuessing = guessBeh.isGuessing;                        
+                        isGuessing = guessBeh.isGuessing;       
+                        if(!isGuessing) ShowStats();
                     }
                     else
                     {
@@ -135,7 +123,6 @@ public class GameTimer : MonoBehaviour
                 timerShake.enabled = false;
                 pauseButton.SetActive(false);
                 pausePanel.SetActive(false);
-
                 titleImage.enabled = false;
                 // AnimateClockImage();
                 titleImage.transform.position -= new Vector3(0, 250f, 0); // Move title up to make room for "Time's Up" text
@@ -157,7 +144,43 @@ public class GameTimer : MonoBehaviour
             }
         }
     }
+    public void ShowStats()
+    {
+        var perf = FindAnyObjectByType<PerfStatDis>();
+        if(perf != null)
+        {
+            perf.DisplayStatsSingle();
+        } 
+    }
+    public void CheckHighest()
+    {
+        StartCoroutine(DisplayHighestLabel());
+    }
+    IEnumerator DisplayHighestLabel()
+    {
+        yield return new WaitForSeconds(0.2f);
+        if (isNewRound && highRoundLabel != null)
+        {
+            highRoundLabel.SetActive(true);
+            yield return new WaitForSeconds(0.15f);
+            AudioManager.Instance.SlamSfx3();
+            yield return new WaitForSeconds(1f);
+        }
+        if (isNewScore && highScoreLabel != null)
+        {
+            highScoreLabel.SetActive(true);
+            yield return new WaitForSeconds(0.15f);
+            AudioManager.Instance.SlamSfx3();
+            yield return new WaitForSeconds(1f);
+        }
+        if (isNewStreak && highStreakLabel != null)
+        {
+            highStreakLabel.SetActive(true);
+            yield return new WaitForSeconds(0.15f);
+            AudioManager.Instance.SlamSfx3();       
+        }
 
+    }
     IEnumerator ElapsedTimeCounter()
     {
         while (!timeUp)
@@ -166,13 +189,11 @@ public class GameTimer : MonoBehaviour
             elapsedTime++;
         }
     }
-
     void UpdateResultTime()
     {
         var indu = FindAnyObjectByType<QuizManager>();
         var syno = FindAnyObjectByType<SynonymQuizManager>();
         var anto = FindAnyObjectByType<AntonymQuizManager>();
-
         if(indu != null)
             indu.PrepareResults();
         if(syno != null)
@@ -180,25 +201,20 @@ public class GameTimer : MonoBehaviour
         if(anto != null)
             anto.PrepareResults();
     }
-
     public void AddTotalPlayed()
     {
         int gPlayed = PlayerPrefs.GetInt("TotalPlayed", 0);
         PlayerPrefs.SetInt("TotalPlayed", gPlayed + 1);
         PlayerPrefs.Save();
     }
-
     public void PauseGame()
     {
         isPaused = true; 
     }
-
     public void ResumeGame()
     {
         isPaused = false;
     }
-
-
     void HideTimer()
     {
         int destinationScene = PlayerPrefs.GetInt("DestinationScene", 0);
@@ -207,27 +223,20 @@ public class GameTimer : MonoBehaviour
             timerBar.SetActive(false);
             timerShake.enabled = false;
             scoreBar.SetActive(true);
-            //scoreBar.transform.position += new Vector3(-60, -10, 0);
-            //scoreBar.transform.localScale += new Vector3(1.2f, 0.5f, 0); // Enlarge score bar to fill space left by timer
         }
         else if (destinationScene == 2 || destinationScene == 3)
         {
             timerBar.SetActive(false);
             timerShake.enabled = false;
             scoreBar.SetActive(true);
-            //scoreBar.transform.position += new Vector3(-75, -20, 0);
-            //scoreBar.transform.localScale += new Vector3(1.2f, 0.5f, 0);
         }
-        
     }
-
     public void HideElements(){
         scoreBar.SetActive(false);
         timerBar.SetActive(false);
         timerShake.enabled = false;
         titleImage.enabled = false;
         pauseButton.SetActive(false);
-
         if(timeData == 2)
         {
             scoreBar.SetActive(false);
@@ -251,7 +260,6 @@ public class GameTimer : MonoBehaviour
         time_remaining = 0;
         AudioManager.Instance.StopTimesUpSfx();
     }
-
     void CheckTimeRemaining()
     {
         if(max_time ==  60f && time_remaining <= 10f && animationPlayed == false)
@@ -275,7 +283,6 @@ public class GameTimer : MonoBehaviour
     {
         StartCoroutine(AnimateClockImageCoroutine());
     }
-
     IEnumerator AnimateClockImageCoroutine()
     {
         clockImageAnimated.gameObject.SetActive(true);
@@ -287,7 +294,6 @@ public class GameTimer : MonoBehaviour
         clockImageAnimated.gameObject.SetActive(false);
         clockImageStatic.gameObject.SetActive(true);
     }
-
     IEnumerator TimerShake()
     {
         clockAnimator.enabled = isTimeClosing;
@@ -295,7 +301,6 @@ public class GameTimer : MonoBehaviour
         clockAnimator.enabled = isTimeClosing;
         
     }
-
     IEnumerator ClockFlicker()
     {
         while(time_remaining < 10f && timeData != 2)
@@ -308,37 +313,29 @@ public class GameTimer : MonoBehaviour
                 digitalClock.color = Color.white;
         }
     }
-
     void RecordGameData()
     {
-        SaveMoney();
         var guessBeh = FindAnyObjectByType<GuessingBehavior>();
         if(guessBeh == null)
             return;
-
         int gameMode = PlayerPrefs.GetInt("DestinationScene", 0);
         int difficultyLevel = PlayerPrefs.GetInt("DifficultyLevel", 0);
-        
-
         if(guessBeh.currentRound >= 3)
         {
             if(gameMode == 1)       //Reading
             {
                 var readingMode = FindAnyObjectByType<QuizManager>();
-
                 if (readingMode == null)
                     return;
-
-                UpdateHighestRecord("InduHR", guessBeh.currentRound);
-                UpdateHighestRecord("InduHScore", readingMode.score);
-                UpdateHighestRecord("InduHS", readingMode.highestStreak); 
-
+                UpdateHighestRecord("InduHR", guessBeh.currentRound, "round");
+                UpdateHighestRecord("InduHScore", readingMode.score, "score");
+                UpdateHighestRecord("InduHS", readingMode.highestStreak, "streak"); 
                 Debug.Log(
                     $"LONG RUN RECORD | timeData: {timeData} | elapsedTime: {elapsedTime}"
                 );
                 if(timeData == 2)
                 {
-                    UpdateHighestRecord("InduLongRun", elapsedTime);
+                    UpdateHighestRecord("InduLongRun", elapsedTime, "");
                 }
                 switch (difficultyLevel)
                 {
@@ -353,20 +350,17 @@ public class GameTimer : MonoBehaviour
                         break;
                 }
             }
-
             if(gameMode == 2)       //Synonyms
             {
                 var modeScript = FindAnyObjectByType<SynonymQuizManager>();
-
                 if (modeScript == null)
                     return;
-
-                UpdateHighestRecord("SynoHR", guessBeh.currentRound);
-                UpdateHighestRecord("SynoHScore", modeScript.score);
-                UpdateHighestRecord("SynoHS", modeScript.highestStreak);
+                UpdateHighestRecord("SynoHR", guessBeh.currentRound, "round");
+                UpdateHighestRecord("SynoHScore", modeScript.score, "score");
+                UpdateHighestRecord("SynoHS", modeScript.highestStreak, "streak");
                 if(timeData == 2)
                 {
-                    UpdateHighestRecord("SynoLongRun", elapsedTime);
+                    UpdateHighestRecord("SynoLongRun", elapsedTime, "");
                 }
                 switch (difficultyLevel)
                 {
@@ -381,20 +375,18 @@ public class GameTimer : MonoBehaviour
                         break;
                 }
             }
-
             if(gameMode == 3)       //Antonyms
             {
                 var modeScript = FindAnyObjectByType<AntonymQuizManager>();
-
                 if (modeScript == null)
                     return;
 
-                UpdateHighestRecord("AntoHR", guessBeh.currentRound);
-                UpdateHighestRecord("AntoHScore", modeScript.score);
-                UpdateHighestRecord("AntoHS", modeScript.highestStreak);
+                UpdateHighestRecord("AntoHR", guessBeh.currentRound, "round");
+                UpdateHighestRecord("AntoHScore", modeScript.score, "score");
+                UpdateHighestRecord("AntoHS", modeScript.highestStreak, "streak");
                 if(timeData == 2)
                 {
-                    UpdateHighestRecord("AntoLongRun", elapsedTime);
+                    UpdateHighestRecord("AntoLongRun", elapsedTime, "");
                 }
                 switch (difficultyLevel)
                 {
@@ -409,7 +401,6 @@ public class GameTimer : MonoBehaviour
                         break;
                 }
             }
-
             PlayerPrefs.Save();
         }
     }
@@ -418,40 +409,33 @@ public class GameTimer : MonoBehaviour
         int currentVal = PlayerPrefs.GetInt(key, 0);
         PlayerPrefs.SetInt(key, currentVal + 1);
     }
-
-    void UpdateHighestRecord(string key, int newValue)
+    void UpdateHighestRecord(string key, int newValue, string targetState)
     {
         int currentVal = PlayerPrefs.GetInt(key, 0);
         if(newValue > currentVal)
         {
             PlayerPrefs.SetInt(key, newValue);
+            if (targetState == "score") isNewScore = true;
+            if(targetState == "streak") isNewStreak = true;
+            if(targetState == "round") isNewRound = true;
         }
     }
-
-
     string ConvertTime(int timeVal)
     {
         int minutes = timeVal / 60;
         int seconds = timeVal % 60;
-
         string formattedTime = string.Format("{0:D2}:{1:D2}", minutes, seconds);
-
         return formattedTime;
     }
-
     void SaveMoney()
     {
         var indu = FindAnyObjectByType<QuizManager>();
         var syno = FindAnyObjectByType<SynonymQuizManager>();
         var anto = FindAnyObjectByType<AntonymQuizManager>();
-
         int score = 0;
         int streak = 0;
         int wrong = 0;
-
         int totalValue = 0;
-
-
         if(indu != null)
         {
             score = indu.score;
@@ -470,21 +454,15 @@ public class GameTimer : MonoBehaviour
             streak = anto.highestStreak;
             wrong = anto.wrongCount;
         }
-
         totalValue = (int)((score * 0.3) - (wrong * 10) + (streak * 4));
-
         int currentCash = PlayerPrefs.GetInt("Money", 0);
-
         if(totalValue <= 0)
         {
             totalValue = 0;
-        }
-        
+        } 
         PlayerPrefs.SetInt("Money", totalValue + currentCash);
         PlayerPrefs.Save();
-
         if(moneyReceived != null)
-            moneyReceived.text = totalValue.ToString();
-
+            moneyReceived.text = totalValue.ToString("N0");
     }
 }

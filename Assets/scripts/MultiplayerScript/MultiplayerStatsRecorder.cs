@@ -1,10 +1,22 @@
 using Mirror;
 using TMPro;
 using UnityEngine;
+using System.Collections;
 
 public class MultiplayerStatsRecorder : MonoBehaviour
 {
     public TMP_Text moneyDisplay;
+
+
+
+    public bool isNewScore = false;
+    public bool isNewStreak = false;
+    public bool isNewRound = false;
+
+    public GameObject highScoreLabel;
+    public GameObject highStreakLabel;
+    public GameObject highRoundLabel;
+
     public void RecordGameData()
     {
         Debug.Log("MultiplayerStatsRecorder: Recording game data...");
@@ -112,10 +124,13 @@ public class MultiplayerStatsRecorder : MonoBehaviour
         SaveMoney(varObj.sharedScore, varObj.highestConsecutiveFirstChoice, varObj.totalMistakes);
 
 
+
+
         UpdateHighestRecord(
             prefix + "HR",
             player.quizRound
         );
+        UpdateHighestRecordDisplay(prefix + "HR", player.quizRound, "round");
 
         // =========================================
         // HIGHEST SCORE
@@ -125,6 +140,7 @@ public class MultiplayerStatsRecorder : MonoBehaviour
             prefix + "HScore",
             varObj.sharedScore
         );
+        UpdateHighestRecordDisplay(prefix + "HR", varObj.sharedScore, "score");
 
         // =========================================
         // HIGHEST STREAK
@@ -134,6 +150,7 @@ public class MultiplayerStatsRecorder : MonoBehaviour
             prefix + "HS",
             varObj.highestConsecutiveFirstChoice
         );
+        UpdateHighestRecordDisplay(prefix + "HR", varObj.highestConsecutiveFirstChoice, "streak");
 
 
         if (varObj.timeRemaining == -1)
@@ -227,9 +244,56 @@ public class MultiplayerStatsRecorder : MonoBehaviour
         }
 
         if(moneyDisplay != null)
-        moneyDisplay.text = totalValue.ToString();
+        moneyDisplay.text = totalValue.ToString("N0");
         
         PlayerPrefs.SetInt("Money", currentCash + totalValue);
         PlayerPrefs.Save();
     }
+
+
+
+    public void CheckHighest()
+    {
+        StartCoroutine(DisplayHighestLabel());
+    }
+
+    IEnumerator DisplayHighestLabel()
+    {
+        yield return new WaitForSeconds(0.2f);
+        if (isNewRound && highRoundLabel != null)
+        {
+            highRoundLabel.SetActive(true);
+            yield return new WaitForSeconds(0.15f);
+            AudioManager.Instance.SlamSfx3();
+            yield return new WaitForSeconds(1f);
+        }
+        if (isNewScore && highScoreLabel != null)
+        {
+            highScoreLabel.SetActive(true);
+            yield return new WaitForSeconds(0.15f);
+            AudioManager.Instance.SlamSfx3();
+            yield return new WaitForSeconds(1f);
+        }
+        if (isNewStreak && highStreakLabel != null)
+        {
+            highStreakLabel.SetActive(true);
+            yield return new WaitForSeconds(0.15f);
+            AudioManager.Instance.SlamSfx3();       
+        }
+
+    }
+
+    void UpdateHighestRecordDisplay(string key, int newValue, string targetState)
+    {
+        int currentVal = PlayerPrefs.GetInt(key, 0);
+        if(newValue > currentVal)
+        {
+            PlayerPrefs.SetInt(key, newValue);
+            if (targetState == "score") isNewScore = true;
+            if(targetState == "streak") isNewStreak = true;
+            if(targetState == "round") isNewRound = true;
+        }
+    }
+
+
 }

@@ -494,6 +494,30 @@ public class DevScripts : MonoBehaviour
         }        
     }
 
+    public void AddScore()
+    {
+        var indu = FindAnyObjectByType<QuizManager>();
+        var syno = FindAnyObjectByType<SynonymQuizManager>();
+        var anto = FindAnyObjectByType<AntonymQuizManager>();
+
+
+        if(indu != null)
+        {
+            indu.score += 1000;
+            indu.UpdateScoreUI();
+        }
+        if(syno != null)
+        {
+            syno.score += 1000;
+            syno.UpdateScoreUI();
+        }
+        if(anto != null)
+        {
+            anto.score += 1000;
+            anto.UpdateScoreUI();
+        }        
+    }
+
     public void ToggleGameClock()
     {
         var timeSet = FindAnyObjectByType<GameTimer>();
@@ -839,7 +863,7 @@ public class DevScripts : MonoBehaviour
     {
         var varObj = FindAnyObjectByType<ProcessShopItems>();
         int currentCash = PlayerPrefs.GetInt("Money", 0);
-        PlayerPrefs.SetInt("Money", currentCash + 100);
+        PlayerPrefs.SetInt("Money", currentCash + 1000);
         PlayerPrefs.Save();
 
         if(AudioManager.Instance != null)
@@ -853,7 +877,7 @@ public class DevScripts : MonoBehaviour
             varObj.UpdateMoneyDisplay();
             return;
         }
-        displayLog.text = "Added 100 pesos LoL.";
+        displayLog.text = "Added 1000 pesos LoL.";
         varObj.UpdateMoneyDisplay();
     }
 
@@ -923,8 +947,8 @@ public class DevScripts : MonoBehaviour
             displayLog.text = "Multiplayer connection is not active.";
             return;
         }
-        displayLog.text = "Added 1 score";
-        varObj.sharedScore++; 
+        displayLog.text = "Added 1000 score";
+        varObj.sharedScore += 1000; 
     }
 
     public void AddMultiStreak()

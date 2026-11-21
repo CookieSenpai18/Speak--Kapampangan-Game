@@ -22,7 +22,7 @@ public class LoadingScreen : MonoBehaviour
     private int loadingDots = 1;
 
     [Header("Loading Settings")]
-    public float loadingDuration = 8f;
+    public float loadingDuration = 4f;
     private float elapsedTime = 0f;
     public bool loadingStarted = false;
 
@@ -54,7 +54,7 @@ void Start()
 {
     PersistentEnvironment.Instance.backgroundImg.sprite = reloadBgImage;
 
-    loadingDuration = PlayerPrefs.GetFloat("LoadingDuration", 8f);  // Set to comment before publishing
+    loadingDuration = PlayerPrefs.GetFloat("LoadingDuration", 4f);  // Set to comment before publishing
     
     if(overrideLoadingDuration != 0)
         {

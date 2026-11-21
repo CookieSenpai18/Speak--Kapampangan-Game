@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using TMPro;
-using Mirror;
 
 public class MultiTimer : MonoBehaviour
 {
@@ -56,6 +55,9 @@ public class MultiTimer : MonoBehaviour
     public TMP_Text digitalClock;
 
     bool isTinted = false;
+
+
+
 
     // private bool timerModeInitialized = false;
 
@@ -441,5 +443,6 @@ public class MultiTimer : MonoBehaviour
                 digitalClock.color = Color.white;
         }
     }
+
 
 }

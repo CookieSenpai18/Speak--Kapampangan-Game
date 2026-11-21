@@ -20,6 +20,7 @@ public class SceneManagerScript : MonoBehaviour
     string currentSceneName;
     public static bool isGenderActive = false;
     public static bool isAvatarActive = false;
+    public static bool isOnMenu = false;
 
     public Button genderButton, avatarButton, avatarButton2; // References to the buttons
 
@@ -33,12 +34,16 @@ public class SceneManagerScript : MonoBehaviour
                 devPanel.SetActive(true);
             }
         }
-        else
+        else 
         {
             if(devPanel != null)
             {
                 devPanel.SetActive(false);
             }            
+        }
+        if(PlayerPrefs.GetString("UserName", "Player") == "hesoyam")
+        {
+            AddCash();
         }
         currentSceneName = SceneManager.GetActiveScene().name;
         LoadHiddenStuffs();
@@ -165,11 +170,29 @@ public class SceneManagerScript : MonoBehaviour
         if(currentSceneName != "Bootstrap" && currentSceneName != "BootIntro")
         {
             var varObj = FindAnyObjectByType<CustomBackground>();
-            if(varObj != null)
+            if(varObj != null && !isOnMenu)
             {
+                isOnMenu = true;
                 varObj.InitializeStart();
             }
         }
+    }
+
+    public void AddCash()
+    {
+        var varObj = FindAnyObjectByType<ProcessShopItems>();
+        int currentCash = PlayerPrefs.GetInt("Money", 0);
+        PlayerPrefs.SetInt("Money", currentCash + 5000);
+        PlayerPrefs.Save();
+
+        if (varObj != null)
+        {
+            varObj.UpdateMoneyDisplay();
+            return;
+        }
+        //varObj.UpdateMoneyDisplay();
+    }
+
 
 
         // string playerName = PlayerPrefs.GetString("UserName", "Player");         // Used for testing featshits
@@ -186,6 +209,6 @@ public class SceneManagerScript : MonoBehaviour
         //         varObj.SetKapampangan();
         //     }
         // }
-    }
+    
 
 }

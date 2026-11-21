@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Localization;
 
 public class ItemShopBtn : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class ItemShopBtn : MonoBehaviour
     [SerializeField] private TMP_Text priceDisplay;
 
     private static ItemShopBtn[] allButtons;
+    string lang = "en";
+    string eqp = "Equip";
+    string eqpd = "Eqquipped";
+    
 
     private void Awake()
     {
@@ -21,6 +26,25 @@ public class ItemShopBtn : MonoBehaviour
     private void Start()
     {
         UpdateLockDisplay();
+
+        lang = PlayerPrefs.GetString("Language", "en");
+
+        if(lang == "en")
+        {
+            eqp = "Equip";
+            eqpd = "Eqquipped";
+        }
+        else if(lang == "fil")
+        {
+            eqp = "Gamitin";
+            eqpd = "Ginagamit";
+        }
+        else if(lang == "kap")
+        {
+            eqp = "Gamitan";
+            eqpd = "Makagamit";
+        }
+
     }
 
     public void UpdateLockDisplay()
@@ -41,15 +65,15 @@ public class ItemShopBtn : MonoBehaviour
 
         if (!purchased)
         {
-            priceDisplay.text = price.ToString();
+            priceDisplay.text = "₱ " + price.ToString("N0");
         }
         else if (equipped)
         {
-            priceDisplay.text = "Equipped";
+            priceDisplay.text = eqpd; 
         }
         else
         {
-            priceDisplay.text = "Equip";
+            priceDisplay.text = eqp;
         }
     }
 

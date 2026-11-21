@@ -1,11 +1,19 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Localization;
 
 public class ProcessShopItems : MonoBehaviour
 {
     public TMP_Text logDisplay;
     public TMP_Text moneyDisplay;
     public TMP_Text moneyDisplay1;
+
+    [SerializeField] private LocalizedString boughtSucc;
+
+
+    public LocalizedString bSeq;
+    public LocalizedString notEnough;
+    public LocalizedString setDef;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,13 +40,14 @@ public class ProcessShopItems : MonoBehaviour
         {
             AudioManager.Instance.BuySfx();
         }
+        UpdateMoneyDisplay();
     }
 
     public void UpdateMoneyDisplay()
     {
         if(moneyDisplay != null)
-        moneyDisplay.text = PlayerPrefs.GetInt("Money", 0).ToString();
+        moneyDisplay.text = PlayerPrefs.GetInt("Money", 0).ToString("N0");
         if(moneyDisplay1 != null)
-        moneyDisplay1.text = PlayerPrefs.GetInt("Money", 0).ToString();
+        moneyDisplay1.text = PlayerPrefs.GetInt("Money", 0).ToString("N0");
     } 
 }

@@ -1,41 +1,40 @@
 using UnityEngine;
 using System.Collections;
-
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
-
     public float initialVolume = 0.5f;
-
     [Header("Music Volume Balance")]
     [SerializeField] private float mainMenuVolume = 0.6f;
     [SerializeField] private float gameplayVolume = 1f;
-
     [Header("Sources")]
     [SerializeField] private AudioSource musicSource;
     [SerializeField] private AudioSource sfxSource;
     [SerializeField] private AudioSource tickingSfxSource;
-
-
     [Header("SFX")]
     [SerializeField] private AudioClip clickSound;
     [SerializeField] private AudioClip wrongSound;
     [SerializeField] private AudioClip correctSound;
     [SerializeField] private AudioClip tickingSound;
     [SerializeField] private AudioClip timesUpSound;
-
     [SerializeField] private AudioClip cardFlip1;
     [SerializeField] private AudioClip cardFlip2;
-
     [SerializeField] private AudioClip buySound;
-
+    [SerializeField] private AudioClip Slam1;
+    [SerializeField] private AudioClip Slam2;
+    [SerializeField] private AudioClip Slam3;
     [Header("BGM Pause Delay")]
     [SerializeField] private float bgmPauseDelay = 1f;
-
     [Header("Music")]
     [SerializeField] private AudioClip mainMenuMusic;
     [SerializeField] private AudioClip gameplayMusic;
-
+    [Header("Customs")]
+    [SerializeField] private AudioClip arayatMusic;
+    [SerializeField] private AudioClip angelesMusic;
+    [SerializeField] private AudioClip bacolorMusic;
+    [SerializeField] private AudioClip clarkMusic;
+    [SerializeField] private AudioClip mexicoMusic;
+    [SerializeField] private AudioClip dhvtsuMusic;
     void Awake()
     {
         if (Instance != null && Instance != this)
@@ -43,45 +42,56 @@ public class AudioManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
-
         void Start()
     {
         float musicVolume = PlayerPrefs.GetFloat("MusicVolume", 0.5f);
         float sfxVolume = PlayerPrefs.GetFloat("SfxVolume", 0.5f);
-
         SetMusicVolume(musicVolume);
         SetSfxVolume(sfxVolume);
-
         PlayMainMenuMusic();
     }
-
     // 🎵 MUSIC
     public void PlayMusic(AudioClip clip)
     {
         if (musicSource.clip == clip)
             return;
-
         musicSource.Stop();
-
         musicSource.clip = clip;
         musicSource.loop = true;
-
         ApplyCurrentMusicVolume();
-
         musicSource.Play();
     }
-
-
+    AudioClip GetMusicToPlay()
+    {
+        int selectedBg = PlayerPrefs.GetInt("SelectedBackground", 0);
+        switch (selectedBg)
+        {
+            case 0:
+                return gameplayMusic;
+            case 1:
+                return bacolorMusic;
+            case 2:
+                return dhvtsuMusic;
+            case 3:
+                return clarkMusic;
+            case 4:
+                return angelesMusic;
+            case 5:
+                return mexicoMusic;
+            case 6:
+                return arayatMusic;
+            default:
+                return gameplayMusic;
+        }
+    }
     public void SetMusicVolume(float volume)
     {
         initialVolume = volume;
         ApplyCurrentMusicVolume();
 }
-
     private void ApplyCurrentMusicVolume()
     {
         float finalVolume = initialVolume * initialVolume;
@@ -94,35 +104,28 @@ public class AudioManager : MonoBehaviour
         {
             finalVolume *= gameplayVolume;
         }
-
         musicSource.volume = finalVolume;
     }
-
     public void SetSfxVolume(float volume)
     {
         sfxSource.volume = volume * volume;
         tickingSfxSource.volume = volume * volume;
     }
-
-
         // 🎵 STOP MUSIC
     public void StopMusic()
     {
         musicSource.Stop();
     }
-
     // ⏸ PAUSE MUSIC
     public void PauseMusic()
     {
         musicSource.Pause();
     }
-
     // ▶ RESUME MUSIC
     public void ResumeMusic()
     {
         musicSource.UnPause();
     }
-
     // MAIN MENU MUSIC
     public void PlayMainMenuMusic()
     {
@@ -134,7 +137,6 @@ public class AudioManager : MonoBehaviour
         yield return new WaitForSeconds(bgmPauseDelay);
         PlayMusic(mainMenuMusic);
     }
-
     // GAMEPLAY MUSIC
     public void PlayGameplayMusic()
     {
@@ -144,12 +146,9 @@ public class AudioManager : MonoBehaviour
     {
         musicSource.Stop();
         yield return new WaitForSeconds(bgmPauseDelay);
-        PlayMusic(gameplayMusic);
+        PlayMusic(GetMusicToPlay());
     }
-
-
-
-    // 🔊 SFX
+    // SFX
     public void PlayClick()
     {
         if (clickSound == null) return;
@@ -190,10 +189,24 @@ public class AudioManager : MonoBehaviour
         if(cardFlip2 == null) return;
         sfxSource.PlayOneShot(cardFlip2);
     }
-
     public void BuySfx()
     {
         if(buySound == null) return;
         sfxSource.PlayOneShot(buySound);
+    }
+    public void SlamSfx1()
+    {
+        if(Slam1 == null) return;
+        sfxSource.PlayOneShot(Slam1);
+    }
+    public void SlamSfx2()
+    {
+        if(Slam2 == null) return;
+        sfxSource.PlayOneShot(Slam2);
+    }
+    public void SlamSfx3()
+    {
+        if(Slam3 == null) return;
+        sfxSource.PlayOneShot(Slam3);
     }
 }

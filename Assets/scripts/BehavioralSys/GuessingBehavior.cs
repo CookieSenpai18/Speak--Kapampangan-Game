@@ -374,5 +374,7 @@ public class GuessingBehavior : MonoBehaviour
         PlayerPrefs.SetInt("TotalHighCounts", totalHigh);
         PlayerPrefs.Save();
     }
+
+    
     
 }

@@ -319,7 +319,7 @@ public class AntonymQuizManager : MonoBehaviour
         }
     }
 
-    void UpdateScoreUI()
+    public void UpdateScoreUI()
     {
         scoreText.text = "" + score;
         untimedText.text = "" + score;

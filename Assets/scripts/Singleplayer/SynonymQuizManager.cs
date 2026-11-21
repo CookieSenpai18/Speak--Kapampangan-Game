@@ -323,7 +323,7 @@ public class SynonymQuizManager : MonoBehaviour
         }
     }
 
-    void UpdateScoreUI()
+    public void UpdateScoreUI()
     {
         scoreText.text = "" + score;
         untimedText.text = "" + score;

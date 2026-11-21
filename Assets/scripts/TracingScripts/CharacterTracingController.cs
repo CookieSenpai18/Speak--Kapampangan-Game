@@ -24,7 +24,7 @@ public class CharacterTracingController :
     [Tooltip(
         "Brush radius as a percentage of the displayed image width."
     )]
-    [SerializeField, Range(0.1f, 10f)]
+    [SerializeField, Range(0.1f, 7f)] 
     public float brushRadiusPercent = 1.0f;
 
     [Tooltip("Percentage of the gray path that must be traced.")]
@@ -693,10 +693,13 @@ public class CharacterTracingController :
 
 
 
-    public void ChangeBrushSize(float bsize)
-    {
-        sizeTxt.text = (bsize * 10).ToString("F1") + "%";
-        brushRadiusPercent = bsize;
-        CalculateBrushRadius();
-    }
+public void ChangeBrushSize(float bsize)
+{
+    // Maps the 0 to 7 range into a 0% to 100% scale
+    float percent = (bsize / 7f) * 100f;
+    
+    sizeTxt.text = percent.ToString("F1") + "%"; // Use "F1" instead of "F0" if you want decimal places (e.g., 50.5%)
+    brushRadiusPercent = bsize;
+    CalculateBrushRadius();
+}
 }

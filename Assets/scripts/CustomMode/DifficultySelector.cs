@@ -2,39 +2,28 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using Unity.VisualScripting;
 using UnityEngine.Localization;
-using System.Collections;
-
 public class DifficultySelector : MonoBehaviour
 {
     public static DifficultySelector Instance;
     [Header("Difficulty Slider")]
     public Slider difficultySlider;
     public TMP_Text textHolderDiff;
-            string dest;
+    string dest;
     public enum Difficulties
     {
-        Easy,
-        Medium,
-        Hard
+        Easy, Medium, Hard
     }
     public Difficulties currentDifficulty;
-
     [Header("Time Selectors")]
-    public Button previousButton, nextButton;
     int index = 0;
     public TMP_Text textHolder;
-
     [Header("Data To Transfer")]
     public int timeDuration, difficultyLevel, destinationScene;
-
     [Header("Title Images")]
     public Sprite readingTitle, synonymTitle, antonymTitle;
     public TMP_Text gameModeTitle;
     [Header("Image")] public Image titleImage;
-
-    [Header("Language")]
     [Header("Gamemode")]
     [SerializeField] private LocalizedString readingText;
     [SerializeField] private LocalizedString synonymsText;
@@ -46,10 +35,6 @@ public class DifficultySelector : MonoBehaviour
     [Header("Clock")]
     [SerializeField] private LocalizedString slowText;
     [SerializeField] private LocalizedString fastText;
-
-
-    
-
     void Awake()
     {
         if(Instance != null && Instance != this)
@@ -59,7 +44,6 @@ public class DifficultySelector : MonoBehaviour
         }
         Instance = this;
     }
-
     void Start()
     {
         timeDuration = PlayerPrefs.GetInt("TimeDuration", 0);
@@ -67,41 +51,30 @@ public class DifficultySelector : MonoBehaviour
         destinationScene = PlayerPrefs.GetInt("DestinationScene", 1);
         index = timeDuration;
         difficultySlider.value = difficultyLevel;
-        difficultySlider.onValueChanged.AddListener(delegate {
-            UpdateDifficulty();
-        });
+        difficultySlider.onValueChanged.AddListener(delegate{UpdateDifficulty();});
         UpdateText(index);
         LoadDifficulty();
         UpdateTitle();
-
     }
-
     void LoadDifficulty()
     {
-
         currentDifficulty = (Difficulties)difficultySlider.value;
-
         switch (currentDifficulty)
         {
             case Difficulties.Easy:
                 textHolderDiff.text = easyText.GetLocalizedString();
                 break;
-
             case Difficulties.Medium:
                 textHolderDiff.text = mediumText.GetLocalizedString();
                 break;
-
             case Difficulties.Hard:
                 textHolderDiff.text = hardText.GetLocalizedString();
                 break;
         }
-        
     }
-
         void UpdateDifficulty()
     {
         currentDifficulty = (Difficulties)difficultySlider.value;
-
         switch (currentDifficulty)
         {
             case Difficulties.Easy:
@@ -116,11 +89,8 @@ public class DifficultySelector : MonoBehaviour
                 textHolderDiff.text = hardText.GetLocalizedString();
                 break;
         }
-
-        Debug.Log("Current Difficulty: " + currentDifficulty);
         PlayClickSound();
     }
-
     void UpdateTitle()
     {
         switch (destinationScene)
@@ -139,30 +109,23 @@ public class DifficultySelector : MonoBehaviour
                 break;
         }
     }
-
     public void PlayClickSound()
     {
         AudioManager.Instance.PlayClick();
     }
-
-
     void UpdateText(int indexNum)
     {
         string[] timeModes = { slowText.GetLocalizedString(), fastText.GetLocalizedString(), "∞" };
-        
         textHolder.text = timeModes[indexNum];
         if (indexNum == 2)
         {
             textHolder.fontSizeMax = 90;
-            //textHolder.fontSize = 90;
         }
         else
         {
             textHolder.fontSizeMax = 38;
-            //textHolder.fontSize = 38;
         }
     }
-
         public void Previous()
     {
         if (index == 0)
@@ -176,7 +139,6 @@ public class DifficultySelector : MonoBehaviour
             UpdateText(index);
         }
     }
-
     public void Next()
         {
             if (index == 2)
@@ -190,7 +152,6 @@ public class DifficultySelector : MonoBehaviour
             UpdateText(index);
         }
         }
-
     public void StartGameSession()
     {
         PlayerPrefs.SetInt("TimeDuration", index);
@@ -199,7 +160,6 @@ public class DifficultySelector : MonoBehaviour
         PlayerPrefs.Save();
         OpenScene(destinationScene);
     }
-
     void OpenScene(int destinationScene)
     {
         switch (destinationScene)
@@ -214,10 +174,8 @@ public class DifficultySelector : MonoBehaviour
                 dest = "Single_Antonyms";
                 break;
         }
-
             LoadingScreen.destinationScene = dest;
             LoadingScreen.isMultiplayer = false;
-
             SceneManager.LoadScene("LoadingScreen");
     }
 }

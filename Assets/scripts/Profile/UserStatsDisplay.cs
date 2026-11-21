@@ -1,6 +1,6 @@
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.Localization;
 
 public class UserStatsDisplay : MonoBehaviour
 {
@@ -80,6 +80,13 @@ public class UserStatsDisplay : MonoBehaviour
     public TMP_Text mantLongRun;
 
 
+    public LocalizedString aveSpdLang;
+    public LocalizedString ansStyleLang;
+
+
+    public LocalizedString aveSpdPref;
+    public LocalizedString ansStylePref;
+
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -131,7 +138,7 @@ public class UserStatsDisplay : MonoBehaviour
 
         if(induTotal + synoTotal + antoTotal >= 8)
         {
-            aveSpd.text = "Average speed: " + PlayerPrefs.GetFloat("AverageSpeed", 2.36f).ToString() + "s";
+            aveSpd.text = aveSpdPref.GetLocalizedString() + PlayerPrefs.GetFloat("AverageSpeed", 2.36f).ToString() + "s";
             aveTooltip.text = "Average time to complete a single round.";
 
 
@@ -170,12 +177,12 @@ public class UserStatsDisplay : MonoBehaviour
             }
 
 
-            ansStyle.text = "Answering style: " + styleTxt;
+            ansStyle.text = ansStylePref.GetLocalizedString() + styleTxt;
         }
         else
         {
-            aveSpd.text = "Average speed: Not enough data";
-            ansStyle.text = "Answering style: Not enough data";
+            aveSpd.text = aveSpdLang.GetLocalizedString();
+            ansStyle.text = ansStyleLang.GetLocalizedString();
 
             aveTooltip.text = "Play more games to get data";
             ansTooltip.text = "Play more games to get data";
