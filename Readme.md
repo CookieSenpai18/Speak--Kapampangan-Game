@@ -170,7 +170,7 @@ A playable build of SPEAK KAPAMPANGAN is available for testing.
 
 - **Version:** 1.0.7
 - **Platform:** Android
-- **Download:** [Download SPEAK KAPAMPANGAN](https://friv.com)
+- **Download:** [Download SPEAK KAPAMPANGAN](https://drive.google.com/file/d/1tNpFLs25ZIaNt5Smde8KgNYhJVai7TFD/view?usp=drive_link)
 
 Please refer to the provided installation instructions before running the application.
 
